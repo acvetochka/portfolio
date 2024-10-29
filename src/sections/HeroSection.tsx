@@ -8,6 +8,8 @@ export const HeroSection = ():JSX.Element => {
     <>
       <Title tag="h1">Alona Kuznietsova</Title>
       <Text size="extra-large">Frontend Developer</Text>
+
+      {/* <button className="button">Download</button> */}
     </>
   );
 };

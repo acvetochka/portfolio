@@ -46,4 +46,6 @@ export const H3 = styled.h3`
   font-weight: bold;
   margin: 0;
   color: #555;
+  z-index: 0;
 `;
+

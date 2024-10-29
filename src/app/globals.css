@@ -44,7 +44,7 @@ a {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 10px 20px;
   border-radius: 8px;
   overflow: hidden;
   position: relative;
@@ -61,4 +61,49 @@ header {
   z-index: -1;
   background: linear-gradient(88deg, #a313e0 20%, #4f0ac9 66%, #0000ff);
   border-radius: 10px;
+} */
+
+
+.button {
+  height: 30px;
+  width: 100px;
+  
+/* display: inline-block;
+overflow: hidden;
+position: relative; */
+border-radius: 10px;
+border: 10px solid;
+border-image-source: linear-gradient(to right, #FF3F3A 0%, #F75E05 100%);
+border-image-slice: 1;
+overflow: hidden;
+/* background: 
+linear-gradient(to right, #FF3F3A 0%, #F75E05 100%) 
+left top / 100% 5px no-repeat,
+linear-gradient(to right,
+#FF3F3A 0%, #F75E05 100%)
+left bottom / 100% 5px no-repeat; */
+}
+
+/* .button::before,
+.button::after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 10px;
+  top: 0;
+}
+
+.button::before {
+  left: 0;
+  border-radius: 10px 0 0 10px;
+  border: 5px solid #FF3F3A;
+  border-right: none;
+
+}
+
+.button::after{
+  right: 0;
+  border-radius: 0 10px 10px 0;
+  border-left: none;
+  border: 5px solid #F75E05 
 } */
