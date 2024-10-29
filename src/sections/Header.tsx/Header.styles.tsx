@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const BorderContainer = styled.div`
   background: linear-gradient(88deg, #a313e0 20%, #4f0ac9 66%, #0000ff);
   width: 100%;
   padding: 25px;

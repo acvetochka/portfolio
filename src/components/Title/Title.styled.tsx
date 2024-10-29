@@ -28,8 +28,8 @@ export const Shadow = styled.div<ShadowProps>`
     filter: drop-shadow(2px 2px 1px black);
     filter: blur(6px);
     z-index: -1;
-    text-wrap: auto;
-    white-space: nowrap;
+    // text-wrap: auto;
+    // white-space: nowrap;
     letter-spacing: -3px;
     font-size: ${({ size }) => size || '54px'};
 `
