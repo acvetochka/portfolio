@@ -2,7 +2,7 @@
 import { TitleProps } from "./Title.props";
 import { H1, H2, H3, Shadow, TitleContainer } from "./Title.styled";
 
-export const Title = ({ tag, children }: TitleProps): JSX.Element => {
+export const Title = ({ tag='h2' , children }: TitleProps): JSX.Element => {
   switch (tag) {
     case "h1":
       return (

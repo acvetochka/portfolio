@@ -6,7 +6,7 @@ import { Title } from "@/components/Title/Title";
 
 export const HeroSection = ():JSX.Element => {
   return (
-    <Section title="HeroSection" id="contacts">
+    <Section  id="">
       <Title tag="h1">Alona Kuznietsova</Title>
       <Text size="extra-large">Frontend Developer</Text>
 
