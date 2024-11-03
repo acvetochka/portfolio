@@ -1,15 +1,14 @@
-'use client'
+"use client";
 
-import { Shadow } from "../Title/Title.styled"
-import { BlueSpan, LogoContainer, PurpleSpan } from "./Logo.styled"
+import { TextShadow } from "../TextShadow/TextShadow";
+import { BlueSpan, PurpleSpan } from "./Logo.styled";
 
-export const Logo = ():JSX.Element => {
-    return (
-        <LogoContainer>
-        <p>
-            <PurpleSpan>&lt;</PurpleSpan>AK/<BlueSpan>&gt;</BlueSpan>
-        </p>
-        <Shadow size="22px">&lt;AK/&gt;</Shadow>
-        </LogoContainer>
-    )
-}
+export const Logo = (): JSX.Element => {
+  return (
+    <TextShadow size="22px" text="<AK/>">
+      <p>
+        <PurpleSpan>&lt;</PurpleSpan>AK/<BlueSpan>&gt;</BlueSpan>
+      </p>
+    </TextShadow>
+  );
+};
