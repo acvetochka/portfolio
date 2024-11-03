@@ -5,6 +5,3 @@ export interface TitleProps {
   tag: "h1" | "h2" | "h3";
 }
 
-export interface ShadowProps {
-    size?: string;
-}
