@@ -107,3 +107,15 @@ left bottom / 100% 5px no-repeat; */
   border-left: none;
   border: 5px solid #F75E05 
 } */
+
+#title {
+  text-transform: capitalize;
+}
+
+.heroSection {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  /* align-items: center; */
+}

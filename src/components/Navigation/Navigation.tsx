@@ -5,7 +5,7 @@ import navigation from "@/data/navigation.json"
 import {Link} from "react-scroll";
 import { NavigationProps } from "./Navigation.props";
 import { Nav } from "./Navigation.styles";
-import { Shadow } from "../Title/Title.styled";
+// import { Shadow } from "../Title/Title.styled";
 
 const typedNavigation: NavigationProps[] = navigation as NavigationProps[];
 
@@ -22,7 +22,9 @@ export const Navigation = ():JSX.Element => {
             smooth={true}
             duration={150}
             href="/"
-          >{title}<Shadow/></Link>
+          >{title}
+          {/* <Shadow/> */}
+          </Link>
             </li>
         ))}
         </Nav>
