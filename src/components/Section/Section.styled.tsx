@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+export const SectionStyled = styled.section`
+min-height: 100vh;
+
+`
 export const Container = styled.div`
   width: 100%;
   margin-right: auto;

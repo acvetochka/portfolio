@@ -4,5 +4,6 @@ export interface SectionProps {
   id: string;
   children: ReactNode;
   title?: string;
+  className?: string;
 
 }
