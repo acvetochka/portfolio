@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" xmlns:bx="https://boxy-svg.com">
+  <rect width="256" height="256" rx="60" fill="#242938"></rect>
+  <linearGradient id="a" x1="50%" x2="50%" y1="37.682%" y2="100%">
+    <stop offset="0" stop-color="#139fda"></stop>
+    <stop offset="1" stop-color="#2359a7"></stop>
+  </linearGradient>
+  <g fill="none" fill-rule="evenodd" transform="matrix(1.277876, 0, 0, 1.261202, 47.16929, 26.556506)" style="">
+    <g fill-rule="nonzero">
+      <path d="M64 0C28.653 0 0 28.653 0 64s28.653 64 64 64 64-28.653 64-64S99.347 0 64 0z" fill="url(#a)"></path>
+      <path d="M64 3C30.31 3 3 30.31 3 64s27.31 61 61 61 61-27.31 61-61S97.69 3 64 3z" fill="#fff"></path>
+      <path d="M64 6C31.967 6 6 31.967 6 64s25.967 58 58 58 58-25.967 58-58S96.033 6 64 6z" fill="url(#a)"></path>
+    </g>
+    <path d="M72.095 49.514l.01 18.415 7.401 30.374c.494 1.985.47 4.02-1.495 4.514-1.955.493-3.506-.06-4-2.035L64.767 72.63h-2.962l-8.794 28.152c-.74 1.906-2.103 2.775-4 2.035-1.886-.731-1.857-2.874-1.116-4.78l7.138-29.792V49.514L34.01 47.645c-1.836-.148-3.148-1.163-3-3 .139-1.847 1.875-2.945 3.702-2.797H68.01l25.056-.04c1.837-.069 3.885.98 3.944 2.837.08 1.827-2.107 2.921-3.944 3zm-1.721-17.707a6.833 6.833 0 0 1-6.838 6.838c-3.75 0-6.807-3.057-6.807-6.838-.01-3.75 3.047-6.807 6.807-6.807 3.78 0 6.838 3.057 6.838 6.807z" fill="#fff"></path>
+  </g>
+  <text style="fill: rgb(255, 255, 255); font-family: &quot;ADLaM Display&quot;; font-size: 67px; white-space: pre;" x="61.374" y="233.54" transform="matrix(0.957818, 0, 0, 0.934426, 6.145662, 17.144949)">a11y</text>
+  <defs>
+    <style bx:fonts="ADLaM Display">@import url(https://fonts.googleapis.com/css2?family=ADLaM+Display%3Aital%2Cwght%400%2C400&amp;display=swap);</style>
+  </defs>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="197.955" y="222.158"> </text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="234.946" y="192.281"> </text>
+</svg>
