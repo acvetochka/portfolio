@@ -16,7 +16,7 @@ export const Section = ({
     <SectionStyled id={id} className={className}>
       <Container>
         <TextShadow size="35px" text={title}>
-          <Title tag="h2">{title}</Title>
+          <Title tag="h2" id={id}>{title}</Title>
         </TextShadow>
         {id && <Line/>}
         {children}

@@ -21,7 +21,7 @@ export const H3 = styled.h3`
   font-size: 1.2rem;
   font-weight: bold;
   margin: 0;
-  color: #555;
+  color: #FFFFFF;
   z-index: 0;
 `;
 
