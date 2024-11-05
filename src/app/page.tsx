@@ -1,5 +1,5 @@
 import styles from "./page.module.css";
-import { HeroSection } from "@/sections/HeroSection";
+import { HeroSection } from "@/sections/HeroSection/HeroSection";
 import { About } from "@/sections/About/About";
 import { SkillsSection } from "@/sections/Skills/SkillsSection";
 import { Projects } from "@/sections/Projects/Projects";
