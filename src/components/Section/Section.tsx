@@ -14,7 +14,7 @@ export const Section = ({
 }: SectionProps): JSX.Element => {
   return (
     <SectionStyled id={id} className={className}>
-      <Container>
+      <Container className="container">
         <TextShadow size="35px" text={title}>
           <Title tag="h2" id={id}>{title}</Title>
         </TextShadow>

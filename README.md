@@ -47,7 +47,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 | Prop      | Default    | Description    |
 | --------- | ---------- | ---------------| 
-| `children`| `undefined`| required, any text content |
+| `children`| `undefined`| *required, any text content |
 | `tag`     | `h2`       | `h1`, `h2`, `h3` |
 
 
@@ -55,15 +55,29 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 | Prop      | Default    | Description    |
 | --------- | ---------- | ---------------| 
-| `children`| `undefined`| required, any text content |
+| `children`| `undefined`| *required, any text content |
 | `size`    | `normal`   | `small`- 12px, <br/> `normal`- 16px, <br/> `large`- 20px,<br/> `extra-large` - 30px  |
 
+## CustomLink
+
+| Prop      | Default    | Description    |
+| --------- | ---------- | ---------------| 
+| `children`| `undefined`| *required, any text content |
+| `href`    | `undefined`| *required, string <br/> link URL |
+
+## ScrollLink
+use "react-scroll"
+
+| Prop      | Default    | Description    |
+| --------- | ---------- | ---------------| 
+| `children`| `undefined`| *required, any text content |
+| `to`      | `undefined`| *required, string <br/> link anchor |
 
 ### Section
 
 | Prop      | Default    | Description    |
 | --------- | ---------- | ---------------| 
-| `children`| `undefined`| required, any text content |
+| `children`| `undefined`| *required, any text content |
 | `id`      | ""         | string, name of section (link in data/navigation.json) |
 | `title`   | ""         | string, title of section | 
 
