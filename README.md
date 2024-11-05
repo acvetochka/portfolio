@@ -73,6 +73,14 @@ use "react-scroll"
 | `children`| `undefined`| *required, any text content |
 | `to`      | `undefined`| *required, string <br/> link anchor |
 
+## Button 
+
+| Prop      | Default    | Description    |
+| --------- | ---------- | ---------------| 
+| `children`| `undefined`| *required, any text content |
+| `tag`     | `button`   | `button`, `scrollLink`, `link` |
+| `link`    | ""         | for tag `scrollLink` or `link` |
+
 ### Section
 
 | Prop      | Default    | Description    |

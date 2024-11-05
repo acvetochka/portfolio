@@ -1,7 +1,6 @@
 "use client"
 
 import { Section } from "@/components/Section/Section";
-// import { Text } from "@/components/Text/Text";
 import about from "@/data/about.json";
 import { ItemStyled, ListStyled } from "./About.styles";
 
