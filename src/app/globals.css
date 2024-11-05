@@ -120,7 +120,37 @@ left bottom / 100% 5px no-repeat; */
   /* align-items: center; */
 }
 
+.heroSection .container {
+  display: flex;
+  flex-direction: column;
+}
+
 .skillsSection h3{
   /* text-align: center; */
   /* margin-bottom: 10px; */
+}
+
+.link {
+    position: relative;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.link:after {
+    content: '';
+    background: none repeat scroll 0 0 transparent;
+    bottom: -1px;
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background:linear-gradient(88deg, #a313e0 20%, #4f0ac9 66%, #0000ff);
+    transition: width 500ms ease 0s, left 500ms ease 0s;
+    width: 0;
+}
+
+.link:hover:after {
+    width: 100%;
+    left: 0;
 }
