@@ -5,7 +5,7 @@ export const ImageComtainer = styled.div`
   position: relative;
   display: inline-block;
   width: 350px;
-  hight: 300px;
+  height: 300px;
   align-self: flex-end;
 
   & div {
@@ -16,13 +16,13 @@ export const ImageComtainer = styled.div`
     bottom: -5px;
     //   width: 100%;
 
-    background: linear-gradient(88deg, #a313e0 20%, #4f0ac9 66%, #0000ff);
-    z-index: 0;
-    mask-image: url("/programmer.png");
-    mask-size: 100%;
-    mask-repeat: no-repeat;
-    mask-position: center;
-    filter: blur(20px);
+    // background: linear-gradient(88deg, #a313e0 20%, #4f0ac9 66%, #0000ff);
+    // z-index: 0;
+    // mask-image: url("/programmer.png");
+    // mask-size: 100%;
+    // mask-repeat: no-repeat;
+    // mask-position: center;
+    // filter: blur(20px);
   }
 `;
 
