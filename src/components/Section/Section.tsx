@@ -10,15 +10,21 @@ export const Section = ({
   id = "",
   title = "",
   children,
-  className=""
+  className = "",
 }: SectionProps): JSX.Element => {
   return (
     <SectionStyled id={id} className={className}>
       <Container className="container">
-        <TextShadow size="35px" text={title}>
-          <Title tag="h2" id={id}>{title}</Title>
-        </TextShadow>
-        {id && <Line/>}
+        {id && (
+          <>
+            <TextShadow size="35px" text={title}>
+              <Title tag="h2" id={id}>
+                {title}
+              </Title>
+            </TextShadow>
+            <Line />
+          </>
+        )}
         {children}
       </Container>
     </SectionStyled>
