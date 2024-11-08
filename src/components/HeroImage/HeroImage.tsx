@@ -1,3 +1,5 @@
+"use client";
+
 import { ImageContainer, ImageStyled } from "./HeroImage.styles"
 
 export const HeroImage = ():JSX.Element => {

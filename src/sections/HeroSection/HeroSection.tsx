@@ -1,11 +1,11 @@
 "use client";
 
-import { Section } from "@/components/Section/Section";
-import { Text } from "@/components/Text/Text";
-import { TextShadow } from "@/components/TextShadow/TextShadow";
-import { Title } from "@/components/Title/Title";
-import { Button } from "@/components/Button/Button";
-import { HeroImage } from "@/components/HeroImage/HeroImage";
+import { Section } from "@/components";
+import { Text } from "@/components";
+import { TextShadow } from "@/components";
+import { Title } from "@/components";
+import { Button } from "@/components";
+import { HeroImage } from "@/components";
 // import { CustomLink } from "@/components/CustomLink/CustomLink";
 
 export const HeroSection = (): JSX.Element => {

@@ -1,5 +1,7 @@
-import { Section } from "@/components/Section/Section"
-import { SkillsList } from "@/components/SkillsList/SkillsList";
+"use client"
+
+import { Section } from "@/components"
+import { SkillsList } from "@/components";
 
 export const SkillsSection = ():JSX.Element => {  
     return (

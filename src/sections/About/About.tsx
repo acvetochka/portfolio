@@ -1,6 +1,6 @@
 "use client"
 
-import { Section } from "@/components/Section/Section";
+import { Section } from "@/components";
 import about from "@/data/about.json";
 import { ItemStyled, ListStyled } from "./About.styles";
 

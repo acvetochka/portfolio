@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components';
-import { Link as ScrollLink } from 'react-scroll';
+import { Link as ReactScrollLink } from 'react-scroll';
 
 const gradientBorder = `linear-gradient(88deg, #a313e0 20%, #4f0ac9 66%, #0000ff)`;
 
@@ -36,7 +36,7 @@ export const StyledButton = styled.button`
   ${sharedButtonStyles};
 `;
 
-export const StyledScrollLink = styled(ScrollLink)`
+export const StyledScrollLink = styled(ReactScrollLink)`
   ${sharedButtonStyles};
 `;
 

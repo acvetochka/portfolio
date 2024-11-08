@@ -1,7 +1,7 @@
 "use client"
 
-import { Logo } from "@/components/Logo/Logo";
-import { Navigation } from "@/components/Navigation/Navigation";
+import { Logo } from "@/components";
+import { Navigation } from "@/components";
 import { Border, BorderContainer } from "./Header.styles";
 import { Container } from "@/components/Section/Section.styled";
 

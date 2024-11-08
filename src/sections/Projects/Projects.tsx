@@ -1,7 +1,9 @@
-import { Section } from "@/components/Section/Section"
-import { Text } from "@/components/Text/Text"
-import { Title } from "@/components/Title/Title"
-import projects from "@/data/projects.json"
+"use client"
+
+import { Section } from "@/components";
+import { Text } from "@/components";
+import { Title } from "@/components";
+import projects from "@/data/projects.json";
 
 export const Projects = ():JSX.Element => {
     return (

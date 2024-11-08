@@ -1,3 +1,5 @@
+"use client";
+
 import { CustomLinkProps } from './CustomLink.props';
 import { Link } from './CustomLink.styles';
 
