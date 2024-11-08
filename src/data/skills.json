@@ -42,6 +42,27 @@
 
     },
     {
+        "id": 4,
+        "type": "Backend",
+        "skills": [
+            {
+                "id": 1,
+                "name": "Node.js",
+                "icon": "/skillicons/NodeJS.svg"
+            },
+            {
+                "id": 2,
+                "name": "MongoDB",
+                "icon": "/skillicons/MongoDB.svg"
+            },
+            {
+                "id": 3,
+                "name": "Express.js",
+                "icon": "/skillicons/ExpressJS.svg"
+            }
+        ]
+    },
+    {
         "id": 2,
         "type": "Styles",
         "skills": [    
@@ -81,6 +102,32 @@
                 "icon": "/skillicons/Framer.svg"
             }
 
+        ]
+    },
+    {
+        "id": 5,
+        "type": "Documentation",
+        "skills": [
+            {
+                "id": 1,
+                "name": "JSON",
+                "icon": "/skillicons/JSON.svg"
+            },
+            {
+                "id": 2,
+                "name": "Yaml",
+                "icon": "/skillicons/Yaml.svg"
+            },
+            {
+                "id": 3,
+                "name": "Swagger",
+                "icon": "/skillicons/Swagger.svg"
+            },
+            {
+                "id": 4,
+                "name": "Markdown",
+                "icon": "/skillicons/Markdown.svg"
+            }
         ]
     },
     {
@@ -126,53 +173,6 @@
                 "id": 8,
                 "name": "Vercel",
                 "icon": "/skillicons/Vercel.svg"
-            }
-        ]
-    },
-    {
-        "id": 4,
-        "type": "Backend",
-        "skills": [
-            {
-                "id": 1,
-                "name": "Node.js",
-                "icon": "/skillicons/NodeJS.svg"
-            },
-            {
-                "id": 2,
-                "name": "MongoDB",
-                "icon": "/skillicons/MongoDB.svg"
-            },
-            {
-                "id": 3,
-                "name": "Express.js",
-                "icon": "/skillicons/ExpressJS.svg"
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "type": "Documentation",
-        "skills": [
-            {
-                "id": 1,
-                "name": "JSON",
-                "icon": "/skillicons/JSON.svg"
-            },
-            {
-                "id": 2,
-                "name": "Yaml",
-                "icon": "/skillicons/Yaml.svg"
-            },
-            {
-                "id": 3,
-                "name": "Swagger",
-                "icon": "/skillicons/Swagger.svg"
-            },
-            {
-                "id": 4,
-                "name": "Markdown",
-                "icon": "/skillicons/Markdown.svg"
             }
         ]
     },
