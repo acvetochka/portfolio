@@ -122,7 +122,8 @@ left bottom / 100% 5px no-repeat; */
 
 .heroSection .container {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  /* flex-direction: column; */
 }
 
 .skillsSection h3{
@@ -154,3 +155,7 @@ left bottom / 100% 5px no-repeat; */
     width: 100%;
     left: 0;
 }
+
+/* .list
+
+} */
