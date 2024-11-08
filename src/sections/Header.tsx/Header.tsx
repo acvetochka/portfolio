@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { Logo } from "@/components";
 import { Navigation } from "@/components";
@@ -9,12 +9,12 @@ export const Header = (): JSX.Element => {
   return (
     <header>
       <Container>
-      <BorderContainer>
-      <Border>
-        <Logo />
-        <Navigation />
-        </Border>
-      </BorderContainer>
+        <BorderContainer>
+          <Border>
+            <Logo />
+            <Navigation />
+          </Border>
+        </BorderContainer>
       </Container>
     </header>
   );
