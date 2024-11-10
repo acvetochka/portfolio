@@ -26,16 +26,17 @@ body {
 
 body {
   background-image:
-      radial-gradient(circle 200px, #a313e0 0%, #4f0ac9 100%);
+      radial-gradient(circle 200px, #a313e0 0%, #4f0ac9 100%),
+      radial-gradient(circle 150px, #4f0ac9 0%, #0000ff 100%);
       /* radial-gradient(circle 150px, rgba(237, 198, 255, 1) 0%, rgba(237, 198, 255, 0.9) 100%),
       radial-gradient(circle 200px, rgba(214, 200, 255, 1) 0%, rgba(214, 200, 255, 0.9) 100%); */
       /* radial-gradient(circle 150px, rgba(237, 198, 255, 1) 0%, rgba(237, 198, 255, 0.9) 100%),
       radial-gradient(circle 150px, rgba(237, 198, 255, 1) 0%, rgba(237, 198, 255, 0.9) 100%),
       radial-gradient(circle 200px, rgba(214, 200, 255, 1) 0%, rgba(214, 200, 255, 0.9) 100%); */
   background-position:
-      top 214px right 58px;
-      /* top 37px left 180px,
-      top 2190px right 58px; */
+      top 214px right 58px,
+      top 400px left 180px;
+      /* top 2190px right 58px; */
       /* top 2013px left 180px,
       top 4531px left 180px,
       top 4708px right 58px; */
@@ -53,8 +54,9 @@ body {
       /* 200px 200px,
       150px 150px, */
       /* 150px 150px, */
-      200px 200px;
-
+      200px 200px,
+      150px 150px;
+/* 
   @media screen and (min-width: 768px) and (max-width: 1279px) {
       background-position:
           top 224px right 406px,
@@ -73,7 +75,7 @@ body {
           top 2251px right -491px,
           top 4146px left -446px,
           top 3865px right -603px;
-  }
+  } */
 
   backdrop-filter: blur(200px);
 }
