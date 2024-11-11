@@ -2,18 +2,27 @@ import styled from "styled-components";
 
 export const LinksContainer = styled.div`
 margin: 0 auto;
+display: flex;
+flex-direction: column;
+margin-top: 50px;
+align-items: center;
 
-@media (min-width: 768px) {
-    width: 70%;
-}
+// @media (min-width: 768px) {
+//     width: 70%;
+// }
 `
 
 export const Wrapper = styled.div`
   margin-top: 20px;
   position: relative;
   display: flex;
-  max-width: 450px;
   margin-bottom: 20px;
+  width: 300px;
+
+  
+  @media (min-width: 768px){
+    width: 450px;
+  }
 
   &::after {
     content: "";
@@ -30,12 +39,16 @@ export const Wrapper = styled.div`
 export const ButtonContainer = styled.div`
   position: relative;
   width: 100%;
-  max-width: 150px;
   padding: 10px 20px;
   min-height: 40px;
   border-radius: 10px 10px 0 0;
   cursor: pointer;
   transition: border 0.3s ease;
+  width: 100px
+  
+  @media (min-width) {
+    width: 150px;
+  }
 
 
  &.active {
