@@ -1,0 +1,73 @@
+[   
+    {
+        "id": 1,
+        "type": "IT",
+        "certList": [
+            {
+                "name": "DevOps and Kubernetes",
+                "location": "Prometheus",
+                "period": "03/2024 - 05/2024",
+                "degree": "Basics of DevOps und Kubernetes",
+                "href": "https://certs.prometheus.org.ua/downloads/ca1a768be03f488fabceb66fa91e2c5c/Certificate.pdf",
+                "date": "05/2024"
+              },
+              {
+                "name": "Google Digital Marketing and e-Commerce",
+                "location": "Coursera",
+                "period": "01/2024 - 03/2024",
+                "degree": "Digital Marketing and e-Commerce",
+                "href": "https://www.coursera.org/account/accomplishments/professional-cert/VUH3LRL3AADW",
+                "date": "03/2024"
+              },
+              {
+                "name": "Google IT-Support",
+                "location": "Coursera",
+                "period": "12/2023 - 01/2024",
+                "degree": "Professional Certificate IT Support",
+                "href": "https://www.coursera.org/account/accomplishments/specialization/Z8AUC5ZXETPF",
+                "date": "01/2024"
+              },
+              {
+                "name": "FullStack Developer Course",
+                "location": "IT School GoIT, Kyiv (Ukraine)",
+                "period": "11/2022 - 10/2023",
+                "degree": "FullStack Developer",
+                "href2": "https://www.linkedin.com/in/alona-kuznietsova/details/certifications/1635544730567/single-media-viewer/?profileId=ACoAADspLvsB65Njn3v9EgSCL9OWgtOLiUx09FU",
+                "href": "https://online.fliphtml5.com/ajgpd/eflf/",
+                "date": "08/2023"
+              }
+            ]
+       
+    },
+    {
+        "id": 2,
+        "type": "Languages",
+        "certList": [
+            {
+                "name": "German course for work - B2",
+                "location": "Inlingua Memmingen, Memmingen (Germany)",
+                "period": "12/2023 - 07/2024",
+                "degree": "Telc DTB B2",
+                "href": "https://results.telc.net/certificate/e59a4434-def0-4a98-9f1f-0a18ed5c9667/099e5994-3d0e-45c5-a045-a2e4ce733d84/ba614583-64cf-4d94-bca3-7d252ab461f6",
+                "date": "07/2024"
+              },
+              {
+                "name": "German integration course",
+                "location": "Inlingua Memmingen, Memmingen (Germany)",
+                "period": "04/2023 - 08/2023",
+                "degree": "Telc DTZ B1, LiD",
+                "href2": "https://www.linkedin.com/in/alona-kuznietsova/details/certifications/1635544727939/single-media-viewer/?profileId=ACoAADspLvsB65Njn3v9EgSCL9OWgtOLiUx09FU",
+                "href": "https://online.fliphtml5.com/ajgpd/hcga/",
+                "date": "10/2023"
+              },
+              {
+                "name": "English B1",
+                "location": "",
+                "period": "",
+                "degree": "English B1",
+                "href": "",
+                "date": ""
+              }
+        ]
+    }
+]
