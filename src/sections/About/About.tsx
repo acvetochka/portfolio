@@ -1,6 +1,6 @@
 "use client"
 
-import { Section } from "@/components";
+import { AboutLinks, Section } from "@/components";
 import about from "@/data/about.json";
 import { ItemStyled, ListStyled } from "./About.styles";
 
@@ -12,6 +12,7 @@ export const About = (): JSX.Element => {
           <ItemStyled key={id}>{item}</ItemStyled>
         ))}
       </ListStyled>
+      <AboutLinks/>
     </Section>
   );
 };
