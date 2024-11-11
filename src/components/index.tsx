@@ -12,3 +12,5 @@ export * from "./SkillsList/SkillsList";
 export * from "./Text/Text";
 export * from "./TextShadow/TextShadow";
 export * from "./Title/Title";
+export * from "./AboutLinks/AboutLinks";
+export * from "./Edu/Edu";

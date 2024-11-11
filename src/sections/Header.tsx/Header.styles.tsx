@@ -8,10 +8,6 @@ export const BorderContainer = styled.div`
   position: relative;
   overflow: hidden;
   z-index: 1;
-
-  //  &:hover div{
-  //  background: transparent;
-  //  }
 `;
 
 export const Border = styled.div`
@@ -27,5 +23,4 @@ export const Border = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  // transition: background-color 1s ease-in-out;
 `;
