@@ -1,6 +1,6 @@
 "use client";
 
-import { HeroDescription, Section } from "@/components";
+import { HeroDescription } from "@/components";
 import { HeroImage } from "@/components";
 import { Container } from "@/components/Section/Section.styled";
 
