@@ -3,12 +3,16 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
 list-style: none;
-display: flex;
-gap: 50px;
+
+@media (min-width: 768px) {
+    display: flex;
+    gap: 50px;
+    margin: 0 auto;
+}
 `
 export const CertList = styled.ul`
 list-style: none;
-margin-top: 10px;
+margin-top: 20px;
 `
 export const CertItem = styled(ItemStyled)`
 display: flex;

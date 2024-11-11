@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button, ButtonContainer, Wrapper } from "./AboutLinks.styles";
+import { Button, ButtonContainer, LinksContainer, Wrapper } from "./AboutLinks.styles";
 import { Edu } from "../Edu/Edu";
 import { Certificates } from "../Certificates/Certificates";
 
@@ -17,7 +17,7 @@ export const AboutLinks = (): JSX.Element => {
   };
 
   return (
-    <>
+    <LinksContainer>
       <Wrapper>
         {aboutData.map(({ id, name }) => (
           <ButtonContainer
@@ -30,6 +30,6 @@ export const AboutLinks = (): JSX.Element => {
         ))}
       </Wrapper>
       <div>{aboutData[activeIndex].content}</div>
-    </>
+    </LinksContainer>
   );
 };

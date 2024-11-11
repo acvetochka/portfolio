@@ -1,5 +1,13 @@
 import styled from "styled-components";
 
+export const LinksContainer = styled.div`
+margin: 0 auto;
+
+@media (min-width: 768px) {
+    width: 70%;
+}
+`
+
 export const Wrapper = styled.div`
   margin-top: 20px;
   position: relative;

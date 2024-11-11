@@ -18,7 +18,7 @@ export const H2 = styled.h2`
 `;
 
 export const H3 = styled.h3`
-  font-size: 1.2rem;
+  font-size: 16px;
   font-weight: bold;
   margin: 0;
   color: #FFFFFF;
