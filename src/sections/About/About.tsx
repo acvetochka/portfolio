@@ -1,8 +1,8 @@
 "use client"
 
 import { AboutLinks, Section } from "@/components";
-import about from "@/data/about.json";
 import { ItemStyled, ListStyled } from "./About.styles";
+import about from "@/data/about.json";
 
 export const About = (): JSX.Element => {
   return (

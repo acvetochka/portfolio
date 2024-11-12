@@ -1,7 +1,8 @@
 import { Link} from 'react-scroll';
+
 import { ScrollLinkProps } from './ScrollLink.props';
 
-const ScrollLink = ({
+export const ScrollLink = ({
   children, to
 }: ScrollLinkProps): JSX.Element => {
   return (
@@ -17,4 +18,3 @@ const ScrollLink = ({
   );
 };
 
-export default ScrollLink;

@@ -1,10 +1,9 @@
 "use client";
 
-import navigation from "@/data/navigation.json";
-// import { Link } from "react-scroll";
+import { ScrollLink } from "@/components";
 import { NavigationProps } from "./Navigation.props";
 import { Nav } from "./Navigation.styles";
-import ScrollLink from "../ScrollLink/ScrollLink";
+import navigation from "@/data/navigation.json";
 
 const typedNavigation: NavigationProps[] = navigation as NavigationProps[];
 
@@ -14,17 +13,6 @@ export const Navigation = (): JSX.Element => {
       {typedNavigation.map(({ id, title, link }) => (
         <li key={id}>
           <ScrollLink to={link}>{title}</ScrollLink>
-          {/* <Link
-            // onClick={isShow ? onClose : null}
-            to={link}
-            spy={true}
-            smooth={true}
-            duration={150}
-            href="/"
-            className="link"
-          >
-            {title}
-          </Link> */}
         </li>
       ))}
     </Nav>

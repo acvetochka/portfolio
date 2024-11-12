@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import { Header } from "@/sections/Header.tsx/Header";
+import { Header } from "@/sections/Header/Header";
 import StyledComponentsRegistry from "@/lib/registry";
 
 const geistSans = localFont({
@@ -15,6 +15,13 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
+
+const lobster = localFont({
+  src: "./fonts/Lobster-Regular.ttf",
+  variable: "--font-lobster",
+  weight: "100 400"
+})
+
 export const metadata: Metadata = {
   title: "Portfolio | Alona Kuznietsova",
   description: "This is my personal portfolio",
@@ -27,7 +34,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} ${lobster.variable}`}>
         <Header/>
         <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
         {/* <Footer/> */}

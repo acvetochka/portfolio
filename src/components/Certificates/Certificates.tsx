@@ -1,9 +1,6 @@
-import certData from "@/data/certification.json";
-import { CustomLink } from "../CustomLink/CustomLink";
-import { Title } from "../Title/Title";
-
-// import { EduList } from "../Edu/Edu.styles";
+import { CustomLink, Title } from "@/components";
 import { CertItem, CertList, Wrapper } from "./Certificates.styles";
+import certData from "@/data/certification.json";
 
 export const Certificates = (): JSX.Element => {
   return (

@@ -14,3 +14,5 @@ export * from "./TextShadow/TextShadow";
 export * from "./Title/Title";
 export * from "./AboutLinks/AboutLinks";
 export * from "./Edu/Edu";
+export * from "./ProjectsList/ProjectsList";
+export * from "./Certificates/Certificates";

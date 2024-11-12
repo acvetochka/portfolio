@@ -1,6 +1,4 @@
-import { Button, Text } from "@/components"
-import { TextShadow } from "@/components"
-import { Title } from "@/components"
+import { Button, Text, Title, TextShadow } from "@/components"
 import { ButtonWrapper, DescriptionWrapper } from "./HeroDescription.styles"
 
 export const HeroDescription = ():JSX.Element => {
