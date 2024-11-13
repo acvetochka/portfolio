@@ -10,6 +10,7 @@ export const Header = (): JSX.Element => {
       <Container>
         <BorderContainer>
           <Border>
+            {/* <img src="/logo.svg"/> */}
             <Logo />
             <Navigation />
           </Border>

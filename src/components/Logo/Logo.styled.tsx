@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const LogoContainer = styled.div`
  position: relative;
  z-index: 1;
- font-family: "lobster";
+ font-family: var(--font-agbalumo);
 
 `
 
