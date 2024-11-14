@@ -8,3 +8,7 @@ list-style: none;
 export const EduItem = styled(ItemStyled)`
 margin-bottom: 8px;
 `
+
+export const Uni = styled.p`
+font-size: 14px;
+`
