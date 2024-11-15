@@ -30,9 +30,9 @@ export const Container = styled.div`
     padding-left: 40px;
 }
 
-//   @media (min-width: 1200px) {
-//     max-width: 1200px;
-//     padding-right: 40px;
-//     padding-left: 40px;
-// }
+  @media (min-width: 1200px) {
+    max-width: 1200px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
 `;

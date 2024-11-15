@@ -6,6 +6,11 @@ export const H1 = styled.h1`
     font-weight: 700;
     filter: drop-shadow(2px 2px 1px black);
     // text-transform: uppercase;
+        text-wrap: wrap;
+
+    @media (min-width: 1024px) {
+    text-wrap: nowrap;
+    } 
 
 `;
 

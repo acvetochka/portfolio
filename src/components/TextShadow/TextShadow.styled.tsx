@@ -24,4 +24,9 @@ export const Shadow = styled.div<ShadowProps>`
     letter-spacing: -3px;
     font-size: ${({ size }) => size || '54px'};
     text-transform: uppercase;
+    text-wrap: wrap;
+
+    @media (min-width: 1024px) {
+    text-wrap: nowrap;
+    } 
     `
