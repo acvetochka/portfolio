@@ -38,7 +38,23 @@ export const ProjectComtainer = styled.div`
   //   transition: background-color 0.4s ease-in-out;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: ;
+  justify-content: space-around;
   align-items: center;
   text-decoration: none;
 `;
+
+export const TypeList = styled.div`
+display: flex;
+font-size: 12px;
+gap: 5px;
+`
+
+export const TechnologiesList = styled.ul`
+list-style: none;
+display: flex;
+gap: 5px;
+font-size: 12px;
+flex-wrap: wrap;
+
+`
