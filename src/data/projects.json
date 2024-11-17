@@ -5,8 +5,7 @@
     "github": "https://github.com/SoftRyzen-internship/smile_bar",
     "technologies": ["Next JS", " Tailwind CSS", " Sanity", "Telegram bot API"],
     "description": [
-      "Commercial team project by SoftRyzen.",
-      "Responsive, cross-browser website for a professional dental cleaning studio in Lviv. It uses the Sanity administrative panel and Telegram chat bot."
+      "Commercial team project by SoftRyzen. Responsive, cross-browser website for a professional dental cleaning studio in Lviv. It uses the Sanity administrative panel and Telegram chat bot."
     ],
     "img": "",
     "type": ["Team Project", "Landing"],
@@ -18,11 +17,10 @@
     "github": "https://github.com/acvetochka/car-rental",
     "technologies": ["React JS", " Redux Toolkit", " Axios"],
     "description": [
-      "React-App",
-      "Car-rental website. On the site, the possibility of filtering cars and adding them to favorites has been                                implemented. The project used Emotion-styled"
+      "On the site, the possibility of filtering cars and adding them to favorites has been                                implemented. The project used Emotion-styled"
     ],
     "img": "",
-    "type": ["App"]
+    "type": ["Website"]
   },
   {
     "title": "Carp Travel",
@@ -30,7 +28,6 @@
     "github": "https://github.com/acvetochka/carp-travel",
     "technologies": ["React JS", " Next.js", " Vercel"],
     "description": [
-      "React-App on the Next.js",
       "Website is a business card offering active recreation in the Carpathians. Features: Responsive Design, Swiper Integration. The project used Tailwind CSS, React Hook Form"
     ],
     "img": "",
@@ -60,7 +57,6 @@
     "github": "https://github.com/acvetochka/Phonebook",
     "technologies": ["React JS", "Redux Toolkit", "Axios"],
     "description": [
-      "React-App",
       "Application for storing contacts with authorization. The project used Emotion-styled."
     ],
     "img": "",
@@ -72,7 +68,6 @@
     "github": "https://github.com/NazarMural/project-bookshelf",
     "technologies": ["HTML", "SASS", "JS", "Parcel", "Rest API", "Firebase"],
     "description": [
-      "Team-project. Role: Developer. ",
       "A platform for searching and buying books. Website with a responsive layout. App component with Public and Private routes, AuthPage page logic."
     ],
     "img": "",
@@ -85,7 +80,6 @@
     "github": "https://github.com/acvetochka/mimino/",
     "technologies": ["HTML", "SASS", "JS", "Parcel"],
     "description": [
-      "Team-project. Role: Team-lead, developer.",
       "Website of the hotel and restaurant complex. Adaptive layout and adaptive graphics were implemented. Build project on github, check for build errors and live page performance."
     ],
     "img": "",
@@ -98,7 +92,6 @@
     "github": "https://github.com/acvetochka/WebStudio/",
     "technologies": ["HTML5", "SASS", "BEM", "JS"],
     "description": [
-      "Individual project ",
       "Business card site. Adaptive layout and adaptive graphics are implemented in the project."
     ],
     "img": "",
