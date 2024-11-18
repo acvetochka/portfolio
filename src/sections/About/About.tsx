@@ -12,7 +12,8 @@ export const About = (): JSX.Element => {
           <ItemStyled key={id}>{item}</ItemStyled>
         ))}
       </ListStyled>
-      <AboutLinks/>
+
+     <AboutLinks/>
     </Section>
   );
 };

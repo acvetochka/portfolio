@@ -1,4 +1,4 @@
-import { Button, Text, Title, TextShadow } from "@/components"
+import { Button, Text, Title, TextShadow, Quote } from "@/components"
 import { ButtonWrapper, DescriptionWrapper } from "./HeroDescription.styles"
 
 export const HeroDescription = ():JSX.Element => {
@@ -8,6 +8,7 @@ export const HeroDescription = ():JSX.Element => {
           <Title tag="h1">Alona Kuznietsova</Title>
         </TextShadow>
         <Text size="extra-large">Frontend Developer</Text>
+        <Quote/>
         <ButtonWrapper>
           <Button tag="scrollLink" link="skills">
             Skills
