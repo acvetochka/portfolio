@@ -191,6 +191,47 @@
                 "icon": "/skillicons/a11y.svg"
             }
         ]
+    },
+    {
+        "id": 7,
+        "type": "Basic Knowledge",
+        "skills": [
+            {
+                "id": 1,
+                "name": "Python",
+                "icon": "/skillicons/Python.svg"
+            },
+            {
+                "id": 2,
+                "name": "VueJS",
+                "icon":"/skillicons/VueJS.svg"
+            },
+            {
+                "id": 3,
+                "name": "Docker",
+                "icon": "/skillicons/Docker.svg"
+            },
+            {
+                "id": 4,
+                "name": "Kubernetes",
+                "icon": "/skillicons/Kubernetes.svg"
+            },
+            {
+                "id": 5,
+                "name": "Goggle Cloud Platform",
+                "icon": "/skillicons/GCP.svg"
+            },
+            {
+                "id": 6,
+                "name": "MySQL",
+                "icon": "/skillicons/MySQL.svg"
+            },
+            {
+                "id": 7,
+                "name": "Jupyter Notebook",
+                "icon": "/skillicons/Jupyter.svg"
+            }
+        ]
     }
 ]
 
