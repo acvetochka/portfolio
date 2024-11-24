@@ -1,6 +1,8 @@
 import { Title, Text, CustomLink } from "@/components";
 import projects from "@/data/projects.json";
 import {
+  DescriptionWrapper,
+  ImageWrapper,
   ProjectComtainer,
   ProjectItem,
   ProjectsListStyled,
@@ -8,21 +10,19 @@ import {
   TypeList,
 } from "./ProjectsList.styles";
 import { Tag } from "../Tag/Tag";
+import Image from "next/image";
 
 export const ProjectsList = (): JSX.Element => {
   return (
     <ProjectsListStyled>
       {projects.map(
-        ({ title, src, github, technologies, description, type, role }) => (
+        ({ title, src, github, img, technologies, description, type, role }) => (
           <ProjectItem key={title}>
             <ProjectComtainer>
-              <Title tag="h3">{title}</Title>
-              <TypeList>
-                {type.map((item, id) => (
-                  <Tag key={id}>{item}</Tag>
-                  // <Text key={id}>{item}</Text>
-                ))}
-              </TypeList>
+              <ImageWrapper className="image-wrapper">
+              <Image src={img} width={300} height={169} alt={title}/>
+              </ImageWrapper>
+              <DescriptionWrapper className="desc">
               {role && <Text>Role: {role}</Text>}
               <Text>{description}</Text>
               <TechnologiesList>
@@ -32,6 +32,14 @@ export const ProjectsList = (): JSX.Element => {
                   </li>
                 ))}
               </TechnologiesList>
+              </DescriptionWrapper>
+              <Title tag="h3">{title}</Title>
+              <TypeList>
+                {type.map((item, id) => (
+                  <Tag key={id}>{item}</Tag>
+                  // <Text key={id}>{item}</Text>
+                ))}
+              </TypeList>
               <CustomLink href={src}>Show</CustomLink>
               <CustomLink href={github}>github</CustomLink>
             </ProjectComtainer>

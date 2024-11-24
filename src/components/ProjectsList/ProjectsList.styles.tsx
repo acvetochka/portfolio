@@ -16,7 +16,7 @@ export const ProjectItem = styled.li`
   border-radius: 10px;
   background: ${gradientBorder};
   padding: 2px;
-  overflow: hidden;
+  // overflow: hidden;
 
   @media (min-width: 768px) {
     width: calc((100% - 20px)/ 2);
@@ -25,7 +25,23 @@ export const ProjectItem = styled.li`
   @media (min-width: 1024px) {
     width: calc((100% - 40px)/ 3);
   }
+
+&:hover .image-wrapper{
+  // transform: translateY(-100px);
+  margin-top: -100px
+}
+
+&:hover .desc {
+// transform: translateY(-100px);
+max-height: 200px;
+opacity: 1;
+}
 `;
+
+export const ImageWrapper = styled.div`
+
+transition: margin 1s ease-in-out;
+`
 
 export const ProjectComtainer = styled.div`
   background: #000;
@@ -43,6 +59,13 @@ export const ProjectComtainer = styled.div`
   align-items: center;
   text-decoration: none;
 `;
+
+export const DescriptionWrapper = styled.div`
+max-height: 0;
+overflow: hidden;
+opacity: 0;
+transition: max-height 1s ease-in-out, opacity 1s ease-in-out, transform 1s ease-in-out;
+`
 
 export const TypeList = styled.div`
 display: flex;

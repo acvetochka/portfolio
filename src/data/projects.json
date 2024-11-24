@@ -7,7 +7,7 @@
     "description": [
       "Commercial team project by SoftRyzen. Responsive, cross-browser website for a professional dental cleaning studio in Lviv. It uses the Sanity administrative panel and Telegram chat bot."
     ],
-    "img": "",
+    "img": "/projectImages/smilebar.png",
     "type": ["Team Project", "Landing"],
     "role": "Developer"
   },
@@ -19,7 +19,7 @@
     "description": [
       "On the site, the possibility of filtering cars and adding them to favorites has been                                implemented. The project used Emotion-styled"
     ],
-    "img": "",
+    "img": "/projectImages/carrental.png",
     "type": ["Website"]
   },
   {
