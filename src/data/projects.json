@@ -30,7 +30,7 @@
     "description": [
       "Website is a business card offering active recreation in the Carpathians. Features: Responsive Design, Swiper Integration. The project used Tailwind CSS, React Hook Form"
     ],
-    "img": "",
+    "img": "/projectImages/carptravel.png",
     "type": ["Landing"]
   },
   {
@@ -47,7 +47,7 @@
     "description": [
       "Event calendar management application! The project has Google-authorization. Stylized using Emotion-styled"
     ],
-    "img": "",
+    "img": "/projectImages/goosetrack.png",
     "type": ["Team Project", "App"],
     "role": "Frontend Team Lead, Scrum Master, Developer"
   },
@@ -84,7 +84,7 @@
     ],
     "img": "",
     "type": ["Website"],
-    "role": ["Team Lead", "Developer"]
+    "role": "Team Lead, Developer"
   },
   {
     "title": "WebStudio",
