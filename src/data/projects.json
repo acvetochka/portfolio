@@ -63,14 +63,14 @@
     "type": ["App"]
   },
   {
-    "title": "Booksheft",
+    "title": "Bookshelf",
     "src": "https://nazarmural.github.io/project-bookshelf/",
     "github": "https://github.com/NazarMural/project-bookshelf",
     "technologies": ["HTML", "SASS", "JS", "Parcel", "Rest API", "Firebase"],
     "description": [
       "A platform for searching and buying books. Website with a responsive layout. App component with Public and Private routes, AuthPage page logic."
     ],
-    "img": "",
+    "img": "/projectImages/bookshelf.png",
     "type": ["Team Project", "App"],
     "role": "Developer"
   },
