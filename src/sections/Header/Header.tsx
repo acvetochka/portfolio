@@ -1,8 +1,9 @@
 "use client";
 
-import { Navigation, Logo } from "@/components";
+import { Navigation } from "@/components";
 import { Border, BorderContainer } from "./Header.styles";
 import { Container } from "@/components/Section/Section.styled";
+import Image from "next/image";
 
 export const Header = (): JSX.Element => {
   return (
@@ -10,8 +11,8 @@ export const Header = (): JSX.Element => {
       <Container>
         <BorderContainer>
           <Border>
-            {/* <img src="/logo.svg"/> */}
-            <Logo />
+            <Image src="/logo.png" width={60} height={30} alt="logo"/>
+            {/* <Logo /> */}
             <Navigation />
           </Border>
         </BorderContainer>
