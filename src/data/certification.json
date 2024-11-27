@@ -21,6 +21,14 @@
                 "date": "05/2024"
               },
               {
+                "name": "Google IT Automation mit Python",
+                "location": "Coursera",
+                "period": "June 2024 - October 2024",
+                "degree": "Google IT Automation mit Python",
+                "href": "https://www.coursera.org/account/accomplishments/professional-cert/DAFC49K71IWT",
+                "date": "10/2024"
+              },
+              {
                 "name": "Google Digital Marketing and e-Commerce",
                 "location": "Coursera",
                 "period": "01/2024 - 03/2024",
@@ -47,7 +55,7 @@
                 "name": "German course for work - B2",
                 "location": "Inlingua Memmingen, Memmingen (Germany)",
                 "period": "12/2023 - 07/2024",
-                "degree": "Telc DTB B2",
+                "degree": "German (Telc DTB B2)",
                 "href": "https://results.telc.net/certificate/e59a4434-def0-4a98-9f1f-0a18ed5c9667/099e5994-3d0e-45c5-a045-a2e4ce733d84/ba614583-64cf-4d94-bca3-7d252ab461f6",
                 "date": "07/2024"
               },
@@ -55,18 +63,18 @@
                 "name": "German integration course",
                 "location": "Inlingua Memmingen, Memmingen (Germany)",
                 "period": "04/2023 - 08/2023",
-                "degree": "Telc DTZ B1, LiD",
+                "degree": "German (Telc DTZ B1, LiD)",
                 "href2": "https://www.linkedin.com/in/alona-kuznietsova/details/certifications/1635544727939/single-media-viewer/?profileId=ACoAADspLvsB65Njn3v9EgSCL9OWgtOLiUx09FU",
                 "href": "https://online.fliphtml5.com/ajgpd/hcga/",
                 "date": "10/2023"
               },
               {
                 "name": "English B1",
-                "location": "",
-                "period": "",
+                "location": "Study Less",
+                "period": "08/2023 - 12/2023",
                 "degree": "English B1",
-                "href": "",
-                "date": ""
+                "href": "https://online.fliphtml5.com/ajgpd/vsal/",
+                "date": "12/2023"
               }
         ]
     }
