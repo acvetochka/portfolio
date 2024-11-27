@@ -59,7 +59,7 @@
     "description": [
       "Application for storing contacts with authorization. The project used Emotion-styled."
     ],
-    "img": "",
+    "img": "/projectImages/phonebook.png",
     "type": ["App"]
   },
   {
@@ -82,7 +82,7 @@
     "description": [
       "Website of the hotel and restaurant complex. Adaptive layout and adaptive graphics were implemented. Build project on github, check for build errors and live page performance."
     ],
-    "img": "",
+    "img": "/projectImages/mimino.png",
     "type": ["Website"],
     "role": "Team Lead, Developer"
   },
@@ -94,7 +94,7 @@
     "description": [
       "Business card site. Adaptive layout and adaptive graphics are implemented in the project."
     ],
-    "img": "",
+    "img": "/projectImages/webstudio.png",
     "type": ["Website"]
   }
 ]
