@@ -34,6 +34,7 @@ export const ProjectItem = styled.li`
 &:hover .desc {
 // transform: translateY(-100px);
 max-height: 300px;
+margin-bottom: 20px;
 opacity: 1;
 }
 `;
@@ -46,7 +47,7 @@ transition: margin 1s ease-in-out;
 export const ProjectContainer = styled.div`
   background: #000;
   color: white;
-  padding: 10px 20px;
+  padding: 20px;
   border: none;
   border-radius: 8px;
   width: 100%;
@@ -55,19 +56,12 @@ export const ProjectContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: ;
-  justify-content: space-around;
+  // justify-content: space-around;
   align-items: center;
   text-decoration: none;
 `;
 
-export const DescriptionWrapper = styled.div`
-max-height: 0;
-overflow: hidden;
-opacity: 0;
-padding: 10px 0;
-transition: max-height 1s ease-in-out, opacity 1s ease-in-out, transform 1s ease-in-out;
 
-`
 
 export const TypeList = styled.div`
 display: flex;
@@ -81,12 +75,3 @@ color: gray;
 
 `
 
-export const TechnologiesList = styled.ul`
-list-style: none;
-display: flex;
-gap: 5px;
-font-size: 12px;
-flex-wrap: wrap;
-margin-top: 10px;
-
-`

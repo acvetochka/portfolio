@@ -1,5 +1,6 @@
 export * from "./Button/Button";
 export * from './CustomLink/CustomLink';
+export * from "./Tag/Tag";
 export * from "./HeroDescription/HeroDescription";
 export * from "./HeroImage/HeroImage";
 export * from "./Line/Line";
@@ -17,3 +18,6 @@ export * from "./Edu/Edu";
 export * from "./ProjectsList/ProjectsList";
 export * from "./Certificates/Certificates";
 export * from "./Quote/Quote";
+export * from "./Construction/Construction";
+export * from "./ProjectDescription/ProjectDescription";
+export * from "./ProjectLinks/ProjectLinks";
