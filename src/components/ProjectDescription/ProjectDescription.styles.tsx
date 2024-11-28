@@ -6,8 +6,8 @@ max-height: 0;
 overflow: hidden;
 opacity: 0;
 padding: 10px 0;
-transition: max-height 1s ease-in-out, opacity 1s ease-in-out, transform 1s ease-in-out;
-
+transition: max-height 1s ease-in-out, opacity 1s ease-in-out, transform 1s ease-in-out, margin 1s ease-in-out;
+margin-bottom: 0;
 `
 
 export const TechnologiesList = styled.ul`
