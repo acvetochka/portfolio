@@ -45,22 +45,12 @@
       "MongoDB"
     ],
     "description": [
-      "Event calendar management application! The project has Google-authorization. Stylized using Emotion-styled"
+      "Event calendar management application! The project has Google-authorization. Stylized using Emotion-styled",
+      "Frontend and Backend"
     ],
     "img": "/projectImages/goosetrack.png",
     "type": ["Team Project", "App"],
     "role": "Frontend Team Lead, Scrum Master, Developer"
-  },
-  {
-    "title": "Phonebook",
-    "src": "https://acvetochka.github.io/Phonebook/",
-    "github": "https://github.com/acvetochka/Phonebook",
-    "technologies": ["React JS", "Redux Toolkit", "Axios"],
-    "description": [
-      "Application for storing contacts with authorization. The project used Emotion-styled."
-    ],
-    "img": "/projectImages/phonebook.png",
-    "type": ["App"]
   },
   {
     "title": "Bookshelf",
@@ -96,5 +86,18 @@
     ],
     "img": "/projectImages/webstudio.png",
     "type": ["Website"]
+  },
+  {
+    "title": "Phonebook",
+    "src": "https://acvetochka.github.io/Phonebook/",
+    "github": "https://github.com/acvetochka/Phonebook",
+    "technologies": ["React JS", "Redux Toolkit", "Axios"],
+    "description": [
+      "Application for storing contacts with authorization. The project used Emotion-styled.",
+      "Frontend and Backend"
+    ],
+    "img": "/projectImages/phonebook.png",
+    "type": ["App"],
+    "isInConstruction": "true"
   }
 ]
