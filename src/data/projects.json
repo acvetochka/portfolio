@@ -5,7 +5,7 @@
     "github": "https://github.com/SoftRyzen-internship/smile_bar",
     "technologies": ["Next JS", " Tailwind CSS", " Sanity", "Telegram bot API"],
     "description": [
-      "Commercial team project by SoftRyzen. Responsive, cross-browser website for a professional dental cleaning studio in Lviv. It uses the Sanity administrative panel and Telegram chat bot."
+      "Commercial team project by SoftRyzen. Responsive, cross-browser website for a professional dental cleaning studio in Lviv. It uses the Sanity administrative panel and Telegram API."
     ],
     "img": "/projectImages/smilebar.png",
     "type": ["Team Project", "Landing"],
@@ -15,8 +15,9 @@
     "title": "Car Rental",
     "src": "https://acvetochka.github.io/car-rental",
     "github": "https://github.com/acvetochka/car-rental",
-    "technologies": ["React JS", " Redux Toolkit", " Axios"],
+    "technologies": ["React JS", "Redux Toolkit", " Axios"],
     "description": [
+      "Car-rental website",
       "On the site, the possibility of filtering cars and adding them to favorites has been                                implemented. The project used Emotion-styled"
     ],
     "img": "/projectImages/carrental.png",
@@ -26,7 +27,7 @@
     "title": "Carp Travel",
     "src": "https://carp-travel-xi.vercel.app",
     "github": "https://github.com/acvetochka/carp-travel",
-    "technologies": ["React JS", " Next.js", " Vercel"],
+    "technologies": [" Next.js",  "Swiper", "Tailwind CSS", " Vercel"],
     "description": [
       "Website is a business card offering active recreation in the Carpathians. Features: Responsive Design, Swiper Integration. The project used Tailwind CSS, React Hook Form"
     ],

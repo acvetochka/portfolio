@@ -1,4 +1,9 @@
-import { Title, Construction, ProjectDescription, ProjectLinks } from "@/components";
+import {
+  Title,
+  Construction,
+  ProjectDescription,
+  ProjectLinks,
+} from "@/components";
 import projects from "@/data/projects.json";
 import {
   ImageWrapper,
@@ -37,11 +42,12 @@ export const ProjectsList = (): JSX.Element => {
                   <Type key={id}>{item}</Type>
                 ))}
               </TypeList>
-              <ProjectDescription role={role} description={description} technologies={technologies}/>
-             <ProjectLinks src={src} github={github}/>
-             
-              {/* <CustomLink href={src}>Show</CustomLink>
-              <CustomLink href={github}>github</CustomLink> */}
+              <ProjectDescription
+                role={role}
+                description={description}
+                technologies={technologies}
+              />
+              <ProjectLinks src={src} github={github} />
             </ProjectContainer>
           </ProjectItem>
         )

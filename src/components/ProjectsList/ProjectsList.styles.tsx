@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import { gradientBorder } from "@/styles/variables";
 
-const gradientBorder = `linear-gradient(88deg, #a313e0 20%, #4f0ac9 66%, #0000ff)`;
+// const gradientBorder = `linear-gradient(88deg, #a313e0 20%, #4f0ac9 66%, #0000ff)`;
 
 export const ProjectsListStyled = styled.ul`
   display: flex;
