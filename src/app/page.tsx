@@ -3,6 +3,7 @@ import { HeroSection } from "@/sections/HeroSection/HeroSection";
 import { About } from "@/sections/About/About";
 import { SkillsSection } from "@/sections/Skills/SkillsSection";
 import { Projects } from "@/sections/Projects/Projects";
+import { Contacts } from "@/sections/Contacts/Contacts";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <About/>
         <SkillsSection/>
         <Projects/>
+        <Contacts/>
       </main>
       <footer className={styles.footer}>
 

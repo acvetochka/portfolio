@@ -1,3 +1,5 @@
+'use client'
+
 import { useState, useEffect } from "react";
 import { QuoteText, QuoteWrapper } from "./Quate.styles";
 import quotes from "@/data/quotes.json";

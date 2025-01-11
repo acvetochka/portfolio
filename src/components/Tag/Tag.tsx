@@ -1,3 +1,6 @@
+
+'use client'
+
 import { TagProps } from "./Tag.props"
 import { StyledTagContainer, StylesTag } from "./Tag.styles"
 
