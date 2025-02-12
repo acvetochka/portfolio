@@ -1,10 +1,22 @@
 [
     {
+        "name": "acvetochka@gmail.com",
+        "type": "email",
+        "link": "mailto:acvetochka@gmail.com"
+    },
+    {
+        "name": "+4915141896120",
+        "type": "phone",
+        "link": "tel:+4915141896120"
+    },
+    {
         "name": "linkedin",
+        "type": "link",
         "link": "https://www.linkedin.com/in/alona-kuznietsova/"
     },
     {
         "name": "github",
+        "type": "link",
         "link": "https://github.com/acvetochka"
     }
 ]
