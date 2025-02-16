@@ -4,6 +4,7 @@ import { Navigation } from "@/components";
 import { Border, BorderContainer } from "./Header.styles";
 import { Container } from "@/components/Section/Section.styled";
 import Image from "next/image";
+import Link from "next/link";
 
 export const Header = (): JSX.Element => {
   return (
@@ -11,7 +12,7 @@ export const Header = (): JSX.Element => {
       <Container>
         <BorderContainer>
           <Border>
-            <Image src="/logo.png" width={60} height={30} alt="logo"/>
+          <Link href="/"><Image src="/logo.png" width={60} height={30} alt="logo"/></Link>
             {/* <Logo /> */}
             <Navigation />
           </Border>
