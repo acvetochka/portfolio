@@ -21,3 +21,4 @@ export * from "./Quote/Quote";
 export * from "./Construction/Construction";
 export * from "./ProjectDescription/ProjectDescription";
 export * from "./ProjectLinks/ProjectLinks";
+export * from "./ContactLinks/ContactLinks";
