@@ -6,12 +6,12 @@ import { StyledButton, StyledButtonContainer, StyledlLink, StyledScrollLink } fr
 export const Button = ({
   children,
   tag = "button",
-  link = "",
-}: ButtonProps): JSX.Element => {
+  link = "", className, ...props
+} : ButtonProps): JSX.Element => {
     return (
-        <StyledButtonContainer>
+        <StyledButtonContainer className={className}>
           {tag === 'button' && (
-            <StyledButton>{children}</StyledButton>
+            <StyledButton {...props}>{children}</StyledButton>
           )}
          {tag === 'scrollLink' && (
             <StyledScrollLink to={link} smooth={true}>{children}</StyledScrollLink>

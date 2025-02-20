@@ -4,4 +4,5 @@ export interface ButtonProps extends Omit<DetailedHTMLProps<ButtonHTMLAttributes
   children: ReactNode;
   tag?: "button" | "scrollLink" | "link";
   link?: string;
+  className?: string;
 }
