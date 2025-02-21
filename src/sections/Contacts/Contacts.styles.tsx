@@ -15,9 +15,6 @@ justify-content: space-between;
 flex-direction: column;
 gap: 30px;
 
-
-
-
 `
 
 export const ListStyled = styled.ul`

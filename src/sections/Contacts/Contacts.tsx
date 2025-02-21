@@ -19,6 +19,10 @@ export const Contacts = (): JSX.Element => {
                   </ItemStyled>
             ))}
             <ItemStyled>
+              <Text>Location:</Text>
+              <span>Germany, Bavaria</span>
+            </ItemStyled>
+            <ItemStyled>
               <Text>Links:</Text>
               <ContactLinks/>
               </ItemStyled>
