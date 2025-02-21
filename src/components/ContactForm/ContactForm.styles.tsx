@@ -46,7 +46,7 @@ export const InputStyled = styled.input`
 
 export const TextareaStyled = styled.textarea`
   width: 100%;
-  min-height: 150px;
+  min-height: 200px;
   border-radius: 10px;
   padding: 10px;
   outline: 1px solid #4f0ac9;
