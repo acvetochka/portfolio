@@ -208,7 +208,7 @@ left bottom / 100% 5px no-repeat; */
 }
 
 .heroSection {
-  min-height: calc(100vh - 70px);
+  /* min-height: calc(100vh - 70px); */
   display: flex;
   justify-content: center;
   padding-top: 100px;

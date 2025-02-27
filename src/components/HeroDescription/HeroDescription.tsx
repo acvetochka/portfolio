@@ -10,10 +10,10 @@ export const HeroDescription = ():JSX.Element => {
         <Text size="extra-large">Frontend Developer</Text>
         <Quote/>
         <ButtonWrapper>
-          <Button tag="scrollLink" link="skills">
-            Skills
+          <Button tag="scrollLink" link="contacts">
+            Contact me
           </Button>
-          <Button tag="link" link="https://acvetochka.github.io/Resume/">
+          <Button tag="link" link="https://resume.kuznietsova.org">
             Resume
           </Button>
         </ButtonWrapper>
