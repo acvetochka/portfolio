@@ -3,7 +3,7 @@ import localFont from "next/font/local";
 import "../styles/globals.css";
 import { Header } from "@/sections/Header/Header";
 import StyledComponentsRegistry from "@/lib/registry";
-import { GoogleAnalytics } from "@/components";
+import Script from "next/script";
 
 const agbalumo = localFont({
   src: "./fonts/Agbalumo-Regular.ttf",
@@ -27,8 +27,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-1YH3M8SMR0"
+      ></Script>
+      <Script id="google-analytics">
+        {`window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', {GA_TRACKING_ID});`}
+      </Script></head>
       <body className={`${agbalumo.variable} ${aldrich.variable}`}>
-        <GoogleAnalytics/>
         <Header/>
         <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
         {/* <Footer/> */}
