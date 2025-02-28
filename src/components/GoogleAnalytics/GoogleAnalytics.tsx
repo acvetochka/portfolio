@@ -1,7 +1,7 @@
 "use client";
 import { useEffect } from "react";
 
-const GA_TRACKING_ID = "G-XXXXXXXXXX"; // Замініть своїм ID
+const GA_TRACKING_ID = "G-1YH3M8SMR0";
 
 
 declare global {
@@ -21,7 +21,7 @@ export const GoogleAnalytics = () => {
       };
 
       gtag("js", new Date());
-      gtag("config", "G-XXXXXXXXXX", {
+      gtag("config", {GA_TRACKING_ID}, {
         page_path: window.location.pathname,
       });
     }
