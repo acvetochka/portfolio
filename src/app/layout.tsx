@@ -37,7 +37,7 @@ export default function RootLayout({
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', {GA_TRACKING_ID});`}
+          gtag('config', 'G-1YH3M8SMR0');`}
       </Script></head>
       <body className={`${agbalumo.variable} ${aldrich.variable}`}>
         <Header/>

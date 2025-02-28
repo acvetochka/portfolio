@@ -52,6 +52,7 @@ export const TextareaStyled = styled.textarea`
   outline: 1px solid #4f0ac9;
   background: hsla(0, 0%, 100%, 0.05);
   margin-top: 10px;
+  color: white;
 
   &:focus {
     // border:  1px solid #0000ff;
