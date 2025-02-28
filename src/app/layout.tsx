@@ -1,28 +1,9 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import "./globals.css";
+import "../styles/globals.css";
 import { Header } from "@/sections/Header/Header";
 import StyledComponentsRegistry from "@/lib/registry";
-
-// const geistSans = localFont({
-//   src: "./fonts/GeistVF.woff",
-//   variable: "--font-geist-sans",
-//   weight: "100 900",
-// });
-// const geistMono = localFont({
-//   src: "./fonts/GeistMonoVF.woff",
-//   variable: "--font-geist-mono",
-//   weight: "100 900",
-// });
-
-
-// const lobster = localFont({
-//   src: "./fonts/Lobster-Regular.ttf",
-//   variable: "--font-lobster",
-//   weight: "100 400"
-// })
-
-// ${geistSans.variable} ${geistMono.variable} ${lobster.variable} 
+import { GoogleAnalytics } from "@/components";
 
 const agbalumo = localFont({
   src: "./fonts/Agbalumo-Regular.ttf",
@@ -47,6 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${agbalumo.variable} ${aldrich.variable}`}>
+        <GoogleAnalytics/>
         <Header/>
         <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
         {/* <Footer/> */}

@@ -22,3 +22,5 @@ export * from "./Construction/Construction";
 export * from "./ProjectDescription/ProjectDescription";
 export * from "./ProjectLinks/ProjectLinks";
 export * from "./ContactLinks/ContactLinks";
+export * from "./GoogleAnalytics/GoogleAnalytics";
+// export * from "./Filter/Filter";
