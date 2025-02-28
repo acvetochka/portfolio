@@ -67,6 +67,7 @@ export const Button = styled.button`
   display: inline-block;
   position: absolute;
   background: transparent;
+  color: white;
   top: 2px;
   left: 2px;
   right: 2px;
