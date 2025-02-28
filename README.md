@@ -1,8 +1,34 @@
 # My portfolio
 
+
+## 📁 Project Structure
+
+
+
+```plaintext
+
+ 📦 portfolio
+ ┣ 📂 public            # Static assets (images)
+ ┣ 📂 src
+   ┣ 📂 app             # Next.js App Router (root of the application)
+     ┣ 📂 fonts         # Custom fonts
+     ┣ 📜 page.tsx      # Main page component (homepage)
+     ┗ 📜 layout.tsx    # Root layout component (wrapping all pages)
+   ┣ 📂 components      # Reusable UI components
+   ┣ 📂 data            # Static/local data (e.g., JSON)
+   ┣ 📂 lib             # Utility functions and API handlers
+   ┣ 📂 sections        # Page sections (e.g., Hero, About, Contact)
+   ┣ 📂 styles          # Global and shared styles
+     ┣ 📜 globals.css   # Global styles
+     ┗ 📜 variables.tsx # Style-related variables (e.g., theme settings)
+ ┗ 📜 README.md         # Project documentation
+```
+
+ 
 <details>
   <summary>Next.js</summary>
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
 
 ## Structure of project
 - About me
