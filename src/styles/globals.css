@@ -220,7 +220,14 @@ left bottom / 100% 5px no-repeat; */
   padding-top: 100px;
   padding-top: 20px;
 padding-bottom: 20px;
+
   /* align-items: center; */
+}
+
+@media (max-width: 480px) {
+  .heroSection {
+    height: 600px;
+  }
 }
 
 .heroSection .container {

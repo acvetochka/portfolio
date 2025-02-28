@@ -9,6 +9,7 @@ export const QuoteWrapper = styled.div`
   border-left: 1px solid #a313e0;
   display: flex;
   align-items: center;
+  max-width: 500px;
 `;
 
 export const QuoteText = styled.p`

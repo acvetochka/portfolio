@@ -82,7 +82,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 | `children`| `undefined`| *required, any text content |
 | `tag`     | `h2`       | `h1`, `h2`, `h3` |
 
-
 ### Text
 
 | Prop      | Default    | Description    |
@@ -90,14 +89,14 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 | `children`| `undefined`| *required, any text content |
 | `size`    | `normal`   | `small`- 12px, <br/> `normal`- 16px, <br/> `large`- 20px,<br/> `extra-large` - 30px  |
 
-## CustomLink
+### CustomLink
 
 | Prop      | Default    | Description    |
 | --------- | ---------- | ---------------| 
 | `children`| `undefined`| *required, any text content |
 | `href`    | `undefined`| *required, string <br/> link URL |
 
-## ScrollLink
+### ScrollLink
 use "react-scroll"
 
 | Prop      | Default    | Description    |
@@ -105,13 +104,14 @@ use "react-scroll"
 | `children`| `undefined`| *required, any text content |
 | `to`      | `undefined`| *required, string <br/> link anchor |
 
-## Button 
+### Button 
 
 | Prop      | Default    | Description    |
 | --------- | ---------- | ---------------| 
 | `children`| `undefined`| *required, any text content |
 | `tag`     | `button`   | `button`, `scrollLink`, `link` |
 | `link`    | ""         | for tag `scrollLink` or `link` |
+| `className`| ""        | string, add custom or additional css class you'd need | 
 
 ### Section
 
@@ -120,4 +120,15 @@ use "react-scroll"
 | `children`| `undefined`| *required, any text content |
 | `id`      | ""         | string, name of section (link in data/navigation.json) |
 | `title`   | ""         | string, title of section | 
+
+### Input
+
+| Prop      | Default    | Description    |
+| --------- | ---------- | ---------------| 
+| `type`    | `undefined`| *required, string, type of input |
+| `name`    | `undefined`| *required, string, name of input |
+| `label`   | `undefined`| *required, string, any text content  |
+| `placeholder`| `undefined`| *required, string, example for input-value |
+| `value`   | ""	       | string, current input value (controlled input) |
+| `onChange` | `undefined` | function, event handler for input changes |
 
