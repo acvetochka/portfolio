@@ -25,14 +25,20 @@ export const StyledButtonContainer = styled.div`
   background: ${gradientBorder};
   padding: 2px;
   overflow: hidden;
+  // max-width: 250px;
+  // height: 50px;
 
   &:hover > * {
     background: transparent;
   }
+
+  @media and (max-width:480px) {
+  min-width: 25px;}
 `;
 
 export const StyledButton = styled.button`
   ${sharedButtonStyles};
+
 `;
 
 export const StyledScrollLink = styled(ReactScrollLink)`

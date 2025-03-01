@@ -6,10 +6,10 @@ import { ItemStyled, ListStyled } from "./ContactLinks.styles";
 import contactLinks from "@/data/contactLinks.json";
 
 
-export const ContactLinks = (): JSX.Element => {
+export const ContactLinks = ({className=""}): JSX.Element => {
   return (
 
-            <ListStyled>
+            <ListStyled className={className}>
             {contactLinks.map(({link, name}, id)=> (
                 <ItemStyled key={id}>
                 <a href={link} target='_blank' rel='noopener noreferrer'>

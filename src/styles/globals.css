@@ -269,8 +269,12 @@ padding-bottom: 20px;
 .has-button {
   width: 100%;
 
-
+  width: 250px;
+align-items: center;
+height: 50px;
 }
+
+
 
 @media screen and (min-width: 768px) {
   .has-button{
