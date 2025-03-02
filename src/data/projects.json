@@ -1,7 +1,7 @@
 [
   {
     "title": "Portfolio",
-    "src": "hhtps://kuznietsova.org",
+    "src": "https://kuznietsova.org",
     "github": "https://github.com/acvetochka/portfolio",
     "technologies": ["Next.js", "TypeScript", " Vercel"],
     "description": [ "Personal portfolio website. Includes personal information, skills, work experience, certificates, and projects.",
@@ -19,7 +19,8 @@
     ],
     "img": "/projectImages/smilebar.png",
     "type": ["Team Project", "Landing"],
-    "role": "Developer"
+    "role": "Developer",
+    "isInConstruction": "true"
   },
   {
     "title": "Car Rental",
