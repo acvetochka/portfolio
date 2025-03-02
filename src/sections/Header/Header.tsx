@@ -42,7 +42,11 @@ export const Header = (): JSX.Element => {
     }
   }, [isMobileMenuOpen, isClient]);
 
-  const toggleMobileMenu = () => setIsMobileMenuOpen((prev) => !prev);
+  const toggleMobileMenu = (event?: React.MouseEvent) => {
+    if (event) event.preventDefault(); // Запобігає зміні позиції скролу
+    setIsMobileMenuOpen((prev) => !prev);
+  };
+
   return (
     <>
       <header>

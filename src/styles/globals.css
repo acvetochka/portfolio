@@ -58,7 +58,7 @@ body::before {
 html.no-scroll,
 body.no-scroll {
   overflow: hidden;
-  height: 100%;
+  /* height: 100%; */
 }
 
 /* 
@@ -154,7 +154,10 @@ header {
   padding: 10px 0;
   border-radius: 8px;
   overflow: hidden;
-  position: relative;
+  position: fixed;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+  z-index: 998;
   /* background-color: #000000; */
 }
 
@@ -223,8 +226,8 @@ left bottom / 100% 5px no-repeat; */
   /* min-height: calc(100vh - 70px); */
   display: flex;
   justify-content: center;
-  padding-top: 100px;
-  padding-top: 20px;
+  /* padding-top: 100px; */
+  padding-top: 80px;
 padding-bottom: 20px;
 
   /* align-items: center; */

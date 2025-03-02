@@ -8,7 +8,7 @@ export const StyledMobileMenu = styled.div<{ $isOpen: boolean }>`
   width: 100%;
   height: 100%;
   z-index: 998;
-  background: rgba(20, 10, 35, 0.8);
+  background: rgba(20, 10, 35, 0.9);
   backdrop-filter: blur(12px);
   transform: ${({ $isOpen }) =>
     $isOpen ? "translateY(0)" : "translateY(-100%)"};
