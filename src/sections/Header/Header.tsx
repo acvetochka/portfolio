@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { MdMenu, MdClose } from "react-icons/md";
-import { useMediaQuery } from "react-responsive";
+// import { useMediaQuery } from "react-responsive";
 import { Navigation } from "@/components";
 import { MobileMenu } from "@/components/MobileMenu/MobileMenu";
 import { Container } from "@/components/Section/Section.styled";

@@ -1,21 +1,12 @@
-// import Link from 'next/link';
-// import { useEffect } from 'react';
-// import PropTypes from 'prop-types';
-
 import menu from "@/data/navigation.json";
 import { MobileMenuProps } from "./MobileMenu.props";
 import {
   StyledMobileMenu,
   MenuList,
-  CloseButton,
   MenuWrapper,
   LinkStyled,
 } from "./MobileMenu.styled";
 import { Container } from "../Section/Section.styled";
-import { MdClose } from "react-icons/md";
-// import { Link, ScrollLink } from "react-scroll";
-
-// import { useEffect } from "react";
 
 
 export const MobileMenu = ({

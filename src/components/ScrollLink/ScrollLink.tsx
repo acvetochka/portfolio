@@ -3,7 +3,7 @@ import { Link} from 'react-scroll';
 import { ScrollLinkProps } from './ScrollLink.props';
 
 export const ScrollLink = ({
-  children, to, onClick
+  children, to
 }: ScrollLinkProps): JSX.Element => {
   return (
     <Link
