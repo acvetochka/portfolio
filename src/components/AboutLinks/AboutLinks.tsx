@@ -6,9 +6,10 @@ import { useState } from "react";
 import { Button, ButtonContainer, LinksContainer, Wrapper } from "./AboutLinks.styles";
 import { Edu } from "../Edu/Edu";
 import { Certificates } from "../Certificates/Certificates";
+import { CV } from "../CV/CV";
 
 const aboutData = [
-  { id: 0, name: "My CV", content: "My CV content" },
+  { id: 0, name: "My CV", content: <CV/> },
   { id: 1, name: "Education", content: <Edu/> },
   { id: 2, name: "Certificates", content: <Certificates/> },
 ];

@@ -24,3 +24,29 @@ export const Border = styled.div`
   align-items: center;
   padding: 10px 20px;
 `;
+
+
+export const MenuButton = styled.button`
+display: block;
+text-transform: uppercase;
+transition: letter-spacing 0.3s ease-in-out;
+display: flex;
+align-items: center;
+gap: 0.5rem;
+background: transparent;
+border: none;
+cursor: pointer;
+z-index: 999;
+
+&:hover {
+  letter-spacing: 1.26px;
+}
+
+& svg {
+fill: white;
+}
+
+@media (min-width: 768px) {
+  display: none; /* Сховати кнопку на великих екранах */
+}
+`;
