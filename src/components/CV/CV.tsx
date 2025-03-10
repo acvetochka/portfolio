@@ -9,7 +9,7 @@ export const CV = ():JSX.Element => {
     return (
         <ListStyled>
             <CVItem><CustomLink href="https://resume.kuznietsova.org">Show <TbWorldWww/></CustomLink></CVItem>
-            <CVItem><CustomLink href="/files/Frontend_Kuznietsova_Alona.pdf">Download (de) <FaFilePdf/></CustomLink></CVItem>
+            <CVItem><CustomLink href="/files/Alona_Kuznietsova_Lebenslauf.pdf">Download (de) <FaFilePdf/></CustomLink></CVItem>
         </ListStyled>
 
     )
