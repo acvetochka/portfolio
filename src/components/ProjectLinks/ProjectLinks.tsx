@@ -1,4 +1,4 @@
-import { ProjectLinksProps } from "./ProjectLinks.props";
+import { ProjectLinksProps } from "@/types/ProjectLinks.props";
 import { LinksWrapper } from "./ProjectLinks.styles";
 import { AiOutlineGlobal, AiOutlineGithub } from "react-icons/ai";
 

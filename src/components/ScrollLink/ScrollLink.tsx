@@ -1,6 +1,6 @@
 import { Link} from 'react-scroll';
 
-import { ScrollLinkProps } from './ScrollLink.props';
+import { ScrollLinkProps } from '@/types/ScrollLink.props';
 
 export const ScrollLink = ({
   children, to

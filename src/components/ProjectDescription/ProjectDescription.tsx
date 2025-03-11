@@ -3,7 +3,7 @@ import {
   DescriptionWrapper,
   TechnologiesList,
 } from "./ProjectDescription.styles";
-import { ProjectDescriptionProps } from "./ProjectDescription.props";
+import { ProjectDescriptionProps } from "@/types/ProjectDescription.props";
 
 export const ProjectDescription = ({
   role,

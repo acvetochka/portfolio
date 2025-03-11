@@ -2,7 +2,7 @@
 
 import cn from "classnames";
 
-import { TextProps } from "./Text.props";
+import { TextProps } from "@/types/Text.props";
 import { StyledText } from "./Text.styled";
 
 export const Text = ({

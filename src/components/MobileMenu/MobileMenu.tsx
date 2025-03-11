@@ -1,5 +1,5 @@
 import menu from "@/data/navigation.json";
-import { MobileMenuProps } from "./MobileMenu.props";
+import { MobileMenuProps } from "@/types/MobileMenu.props";
 import {
   StyledMobileMenu,
   MenuList,

@@ -1,7 +1,7 @@
 "use client";
 
 import { ScrollLink } from "@/components";
-import { NavigationProps } from "./Navigation.props";
+import { NavigationProps } from "@/types/Navigation.props";
 import { Nav } from "./Navigation.styles";
 import navigation from "@/data/navigation.json";
 

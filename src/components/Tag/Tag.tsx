@@ -1,6 +1,6 @@
 "use client";
 
-import { TagProps } from "./Tag.props";
+import { TagProps } from "@/types/Tag.props";
 import { StyledTagContainer, StylesTag } from "./Tag.styles";
 
 export const Tag = ({ children }: TagProps): JSX.Element => {

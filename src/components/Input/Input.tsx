@@ -1,4 +1,4 @@
-import { InputProps } from "./Input.props";
+import { InputProps } from "@/types/Input.props";
 import { InputStyled, InputWrapper } from "./Input.styled";
 
 export const Input = ({

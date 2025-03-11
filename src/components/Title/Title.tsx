@@ -1,5 +1,5 @@
 "use client";
-import { TitleProps } from "./Title.props";
+import { TitleProps } from "@/types/Title.props";
 import { H1, H2, H3 } from "./Title.styled";
 
 export const Title = ({ tag='h2' , id, children }: TitleProps): JSX.Element => {

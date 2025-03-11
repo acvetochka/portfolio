@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ShadowProps } from "./TextShadow.props";
+import { ShadowProps } from "../../types/TextShadow.props";
 
 export const TextContainer = styled.div`
 position: relative;
