@@ -1,6 +1,6 @@
 "use client";
 
-import { Line, TextShadow, Title  } from "@/components";
+import { Line, TextShadow, Title } from "@/components";
 import { SectionProps } from "./Section.props";
 import { Container, SectionStyled } from "./Section.styled";
 

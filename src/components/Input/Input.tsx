@@ -6,7 +6,7 @@ export const Input = ({
   name,
   label,
   placeholder,
-  value="",
+  value = "",
   onChange,
 }: InputProps): JSX.Element => {
   return (

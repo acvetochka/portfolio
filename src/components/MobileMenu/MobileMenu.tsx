@@ -27,7 +27,6 @@ export const MobileMenu = ({
                   spy={true}
                   smooth={true}
                   duration={500}
-                //   href="/"
                   className="link"
                 >
                   {title}
@@ -35,9 +34,6 @@ export const MobileMenu = ({
               </li>
             ))}
           </MenuList>
-          {/* <CloseButton type="button" onClick={onClose}>
-            <MdClose size={24} />
-          </CloseButton> */}
         </MenuWrapper>
       </Container>
     </StyledMobileMenu>

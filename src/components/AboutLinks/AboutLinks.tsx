@@ -1,8 +1,6 @@
 'use client';
 
 import { useState } from "react";
-
-// import { Certificates, Edu } from "@/components";
 import { Button, ButtonContainer, LinksContainer, Wrapper } from "./AboutLinks.styles";
 import { Edu } from "../Edu/Edu";
 import { Certificates } from "../Certificates/Certificates";

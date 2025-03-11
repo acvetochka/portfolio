@@ -14,7 +14,6 @@ export const Edu = (): JSX.Element => {
           <Uni>
             {uni} [{location}]
           </Uni>
-          {/* <p>{date}</p> */}
         </EduItem>
       ))}
     </EduList>

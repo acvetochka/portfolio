@@ -22,4 +22,5 @@ export * from "./Construction/Construction";
 export * from "./ProjectDescription/ProjectDescription";
 export * from "./ProjectLinks/ProjectLinks";
 export * from "./ContactLinks/ContactLinks";
+export * from "./CV/CV";
 // export * from "./Filter/Filter";

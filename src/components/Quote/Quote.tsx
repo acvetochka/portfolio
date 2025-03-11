@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import { useState, useEffect } from "react";
 import { QuoteText, QuoteWrapper } from "./Quate.styles";
@@ -10,16 +10,14 @@ export const Quote = (): JSX.Element => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentQuoteIndex((prevIndex) => (prevIndex + 1) % quotes.length);
-    }, 10000); 
+    }, 10000);
 
-    return () => clearInterval(intervalId); 
+    return () => clearInterval(intervalId);
   }, []);
 
   return (
     <QuoteWrapper>
-      <QuoteText>
-        {quotes[currentQuoteIndex]}
-        </QuoteText>
-      </QuoteWrapper>
+      <QuoteText>{quotes[currentQuoteIndex]}</QuoteText>
+    </QuoteWrapper>
   );
 };
