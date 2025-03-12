@@ -47,7 +47,7 @@ export const ProjectsList = (): JSX.Element => {
                 description={description}
                 technologies={technologies}
               />
-              <ProjectLinks src={src} github={github} />
+              <ProjectLinks src={src} github={github} name={title}/>
             </ProjectContainer>
           </ProjectItem>
         )
