@@ -10,7 +10,7 @@ export const ContactLinks = ({ className = "" }): JSX.Element => {
     <ListStyled className={className}>
       {contactLinks.map(({ link, name }, id) => (
         <ItemStyled key={id}>
-          <a href={link} target="_blank" rel="noopener noreferrer">
+          <a href={link} target="_blank" rel="noopener noreferrer" aria-label={`${name}-link`}>
             {name === "github" ? (
               <AiOutlineGithub width="25" height="25" />
             ) : (

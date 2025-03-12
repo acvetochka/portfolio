@@ -1,4 +1,5 @@
 export interface ProjectLinksProps {
     src: string,
-    github: string
+    github: string,
+    name: string
 }
