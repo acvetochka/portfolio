@@ -3,11 +3,11 @@ import styled from "styled-components";
 
 export const ListStyled = styled.ul`
 list-style: none;
-    transform: translateX(-60px);
+    // transform: translateX(-60px);
 
-    @media (min-width: 768px) {
-    transform: translateX(-130px);
-    }
+    // @media (min-width: 768px) {
+    // transform: translateX(-130px);
+    // }
 `
 
 

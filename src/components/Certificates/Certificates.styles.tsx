@@ -14,6 +14,7 @@ export const Wrapper = styled.ul`
   @media (min-width: 768px) {
     // display: flex;
     flex-direction: row;
+    justify-content: space-between;
     gap: 50px;
     margin: 0 auto;
   }

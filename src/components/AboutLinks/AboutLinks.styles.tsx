@@ -5,11 +5,12 @@ margin: 0 auto;
 display: flex;
 flex-direction: column;
 margin-top: 50px;
-align-items: center;
+// align-items: center;
 
-// @media (min-width: 768px) {
-//     width: 70%;
-// }
+@media (min-width: 768px) {
+    // width: 70%;
+    width: 600px;
+}
 `
 
 export const Wrapper = styled.div`
@@ -17,11 +18,11 @@ export const Wrapper = styled.div`
   position: relative;
   display: flex;
   margin-bottom: 20px;
-  width: 300px;
+  // width: 300px;
 
   
   @media (min-width: 768px){
-    width: 450px;
+    width: 600px;
   }
 
   &::after {
