@@ -21,6 +21,7 @@ Show [website](https://kuznietsova.org/)
    ┣ 📂 styles          # Global and shared styles
      ┣ 📜 globals.css   # Global styles
      ┗ 📜 variables.tsx # Style-related variables (e.g., theme settings)
+   ┣ 📂 types 
  ┗ 📜 README.md         # Project documentation
 ```
 
