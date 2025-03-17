@@ -58,22 +58,28 @@ export const Header = (): JSX.Element => {
               </Link>
               {/* <Logo /> */}
               {isClient && isMobile ? (
-                <MenuButton type="button" onClick={toggleMobileMenu}>
-                  {isMobileMenuOpen ? (
-                    <MdClose size={24} />
-                  ) : (
-                    <MdMenu size={24} />
-                  )}
-                </MenuButton>
+                <>
+                  <MenuButton type="button" onClick={toggleMobileMenu}>
+                    {isMobileMenuOpen ? (
+                      <MdClose size={24} />
+                    ) : (
+                      <MdMenu size={24} />
+                    )}
+                  </MenuButton>
+                  <MobileMenu
+                    isOpen={isMobileMenuOpen}
+                    onClose={toggleMobileMenu}
+                  />
+                </>
               ) : (
                 <Navigation />
               )}
-              {isClient && (
+              {/* {isClient && (
                 <MobileMenu
                   isOpen={isMobileMenuOpen}
                   onClose={toggleMobileMenu}
                 />
-              )}
+              )} */}
             </Border>
           </BorderContainer>
         </Container>

@@ -14,7 +14,7 @@ export const Button = ({
             <StyledButton {...props}>{children}</StyledButton>
           )}
          {tag === 'scrollLink' && (
-            <StyledScrollLink to={link} smooth={true}>{children}</StyledScrollLink>
+            <StyledScrollLink href="/" to={link} smooth={true}>{children}</StyledScrollLink>
           )}
           {tag === 'link' && (
             <StyledlLink href={link} target='_blank' rel='noopener noreferrer'>{children}</StyledlLink>
