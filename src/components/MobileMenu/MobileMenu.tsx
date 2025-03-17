@@ -22,6 +22,7 @@ export const MobileMenu = ({
             {menu.map(({ id, link, title }) => (
               <li key={id}>
                 <LinkStyled
+                href="/"
                   to={link}
                   onClick={isOpen ? () => onClose() : undefined}
                   spy={true}

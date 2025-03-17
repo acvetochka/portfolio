@@ -59,7 +59,7 @@ export const Header = (): JSX.Element => {
               {/* <Logo /> */}
               {isClient && isMobile ? (
                 <>
-                  <MenuButton type="button" onClick={toggleMobileMenu}>
+                  <MenuButton type="button" onClick={toggleMobileMenu} aria-label={isMobileMenuOpen ? "close-menu-button": "open-menu-button"}>
                     {isMobileMenuOpen ? (
                       <MdClose size={24} />
                     ) : (
