@@ -51,8 +51,8 @@ export const Header = (): JSX.Element => {
     <>
       <header>
         <Container>
-          <BorderContainer>
-            <Border>
+          <BorderContainer className="border-container">
+            <Border className="border">
               <Link href="/">
                 <Image src="/logo.png" width={60} height={30} alt="logo" />
               </Link>
