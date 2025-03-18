@@ -1,7 +1,7 @@
 "use client";
 
-import { EduItem, EduList, Uni } from "./Edu.styles";
 import eduData from "@/data/eduData.json";
+import { EduItem, EduList, Uni } from "./Edu.styles";
 
 export const Edu = (): JSX.Element => {
   return (

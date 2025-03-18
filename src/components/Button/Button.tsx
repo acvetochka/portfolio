@@ -1,6 +1,6 @@
 "use client"
 
-import { ButtonProps } from "../../types/Button.props";
+import { ButtonProps } from "@/types";
 import { StyledButton, StyledButtonContainer, StyledlLink, StyledScrollLink } from "./Button.styles";
 
 export const Button = ({

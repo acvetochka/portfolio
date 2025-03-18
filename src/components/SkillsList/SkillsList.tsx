@@ -2,8 +2,8 @@
 
 import { Skills } from "../Skills/Skills";
 import { Title } from "../Title/Title";
-import { List, SkillsType } from "./SkillsList.styles";
 import skillsData from "@/data/skills.json";
+import { List, SkillsType } from "./SkillsList.styles";
 
 export const SkillsList = (): JSX.Element => {
   return (

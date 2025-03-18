@@ -1,9 +1,10 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
-import { FormStyled, InputWrapper, TextareaStyled } from "./ContactForm.styles";
+
 import { Button } from "../Button/Button";
-import inputData from "@/data/inputData.json";
 import { Input } from "../Input/Input";
+import inputData from "@/data/inputData.json";
+import { FormStyled, InputWrapper, TextareaStyled } from "./ContactForm.styles";
 
 const SERVICE_ID = process.env.NEXT_PUBLIC_SERVICE_ID as string;
 const TEMPLATE_ID = process.env.NEXT_PUBLIC_TEMPLATE_ID as string;

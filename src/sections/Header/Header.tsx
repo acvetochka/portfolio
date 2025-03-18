@@ -5,21 +5,14 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { MdMenu, MdClose } from "react-icons/md";
 import { useMediaQuery } from "react-responsive";
-import { Navigation } from "@/components";
-import { MobileMenu } from "@/components/MobileMenu/MobileMenu";
+import { MobileMenu, Navigation } from "@/components";
 import { Container } from "@/components/Section/Section.styled";
-import { Border, BorderContainer, MenuButton } from "./Header.styles";
+import { Border, BorderContainer, MenuButton } from "./Header.styled";
 
 export const Header = (): JSX.Element => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const isMobile = useMediaQuery({ maxWidth: 767 });
   const [isClient, setIsClient] = useState(false);
-
-  // const [isMobile, setIsMobile] = useState(false);
-
-  // useEffect(() => {
-  //   setIsMobile(window.innerWidth <= 767);
-  // }, []);
 
   useEffect(() => {
     setIsClient(true);
@@ -34,11 +27,6 @@ export const Header = (): JSX.Element => {
         document.documentElement.classList.remove("no-scroll");
         document.body.classList.remove("no-scroll");
       }
-
-      // return () => {
-      //   document.documentElement.classList.remove("no-scroll");
-      //   document.body.classList.remove("no-scroll");
-      // }
     }
   }, [isMobileMenuOpen, isClient]);
 
@@ -56,7 +44,6 @@ export const Header = (): JSX.Element => {
               <Link href="/">
                 <Image src="/logo.png" width={60} height={30} alt="logo" />
               </Link>
-              {/* <Logo /> */}
               {isClient && isMobile ? (
                 <>
                   <MenuButton type="button" onClick={toggleMobileMenu} aria-label={isMobileMenuOpen ? "close-menu-button": "open-menu-button"}>
@@ -74,12 +61,6 @@ export const Header = (): JSX.Element => {
               ) : (
                 <Navigation />
               )}
-              {/* {isClient && (
-                <MobileMenu
-                  isOpen={isMobileMenuOpen}
-                  onClose={toggleMobileMenu}
-                />
-              )} */}
             </Border>
           </BorderContainer>
         </Container>

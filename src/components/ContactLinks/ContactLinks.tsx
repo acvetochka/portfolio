@@ -2,8 +2,8 @@
 
 import { AiOutlineGithub } from "react-icons/ai";
 import { FaLinkedin } from "react-icons/fa6";
-import { ItemStyled, ListStyled } from "./ContactLinks.styles";
 import contactLinks from "@/data/contactLinks.json";
+import { ItemStyled, ListStyled } from "./ContactLinks.styles";
 
 export const ContactLinks = ({ className = "" }): JSX.Element => {
   return (

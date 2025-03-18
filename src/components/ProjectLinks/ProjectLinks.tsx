@@ -1,6 +1,6 @@
-import { ProjectLinksProps } from "@/types/ProjectLinks.props";
-import { LinksWrapper } from "./ProjectLinks.styles";
 import { AiOutlineGlobal, AiOutlineGithub } from "react-icons/ai";
+import { ProjectLinksProps } from "@/types";
+import { LinksWrapper } from "./ProjectLinks.styles";
 
 export const ProjectLinks = ({
   src,

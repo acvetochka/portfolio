@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { SkillsProps } from "@/types/Skills.props";
+import { SkillsProps } from "@/types";
 import { IconContainer, SkillsListStyled } from "./Skills.styles";
 
 export const Skills = ({ skills }: SkillsProps): JSX.Element => {

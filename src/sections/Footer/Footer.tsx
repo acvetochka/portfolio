@@ -1,8 +1,8 @@
 "use client";
 
-import { Container } from "@/components/Section/Section.styled";
 import Image from "next/image";
 import Link from "next/link";
+import { Container } from "@/components/Section/Section.styled";
 import { Border, BorderContainer, Copyright, Links } from "./Footer.styled";
 
 export const Footer = (): JSX.Element => {

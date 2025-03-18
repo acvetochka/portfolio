@@ -1,3 +1,4 @@
+import Image from "next/image";
 import {
   Title,
   Construction,
@@ -13,7 +14,6 @@ import {
   Type,
   TypeList,
 } from "./ProjectsList.styles";
-import Image from "next/image";
 
 export const ProjectsList = (): JSX.Element => {
   return (

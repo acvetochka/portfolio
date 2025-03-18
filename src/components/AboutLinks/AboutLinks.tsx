@@ -1,10 +1,11 @@
 'use client';
 
 import { useState } from "react";
-import { Button, ButtonContainer, LinksContainer, Wrapper } from "./AboutLinks.styles";
 import { Edu } from "../Edu/Edu";
 import { Certificates } from "../Certificates/Certificates";
 import { CV } from "../CV/CV";
+import { Button, ButtonContainer, LinksContainer, Wrapper } from "./AboutLinks.styled";
+
 
 const aboutData = [
   { id: 0, name: "My CV", content: <CV/> },

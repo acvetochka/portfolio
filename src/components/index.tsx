@@ -23,4 +23,5 @@ export * from "./ProjectDescription/ProjectDescription";
 export * from "./ProjectLinks/ProjectLinks";
 export * from "./ContactLinks/ContactLinks";
 export * from "./CV/CV";
-// export * from "./Filter/Filter";
+export * from "./MobileMenu/MobileMenu";
+export * from "./ContactForm/ContactForm";

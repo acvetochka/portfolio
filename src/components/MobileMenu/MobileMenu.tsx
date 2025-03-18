@@ -1,5 +1,5 @@
 import menu from "@/data/navigation.json";
-import { MobileMenuProps } from "@/types/MobileMenu.props";
+import { MobileMenuProps } from "@/types";
 import {
   StyledMobileMenu,
   MenuList,
@@ -7,6 +7,7 @@ import {
   LinkStyled,
 } from "./MobileMenu.styled";
 import { Container } from "../Section/Section.styled";
+
 
 
 export const MobileMenu = ({

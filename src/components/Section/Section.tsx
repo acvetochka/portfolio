@@ -1,7 +1,7 @@
 "use client";
 
 import { Line, TextShadow, Title } from "@/components";
-import { SectionProps } from "@/types/Section.props";
+import { SectionProps } from "@/types";
 import { Container, SectionStyled } from "./Section.styled";
 
 export const Section = ({
