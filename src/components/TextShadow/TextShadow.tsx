@@ -1,5 +1,5 @@
 import { TextShadowProps } from "@/types";
-import { Shadow, TextContainer } from "./TextShadow.styled";
+import { Shadow, TextContainer } from "./TextShadow.styles";
 
 export const TextShadow = ({
   size,

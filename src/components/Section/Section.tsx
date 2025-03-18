@@ -2,7 +2,7 @@
 
 import { Line, TextShadow, Title } from "@/components";
 import { SectionProps } from "@/types";
-import { Container, SectionStyled } from "./Section.styled";
+import { Container, SectionStyled } from "./Section.styles";
 
 export const Section = ({
   id = "",

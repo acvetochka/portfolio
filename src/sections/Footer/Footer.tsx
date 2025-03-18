@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Container } from "@/components/Section/Section.styled";
-import { Border, BorderContainer, Copyright, Links } from "./Footer.styled";
+import { Container } from "@/components/Section/Section.styles";
+import { Border, BorderContainer, Copyright, Links } from "./Footer.styles";
 
 export const Footer = (): JSX.Element => {
   return (

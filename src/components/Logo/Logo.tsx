@@ -1,7 +1,7 @@
 "use client";
 
 import { TextShadow } from "../TextShadow/TextShadow";
-import { BlueSpan, LogoContainer, PurpleSpan } from "./Logo.styled";
+import { BlueSpan, LogoContainer, PurpleSpan } from "./Logo.styles";
 
 export const Logo = (): JSX.Element => {
   return (

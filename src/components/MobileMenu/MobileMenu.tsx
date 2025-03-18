@@ -5,8 +5,8 @@ import {
   MenuList,
   MenuWrapper,
   LinkStyled,
-} from "./MobileMenu.styled";
-import { Container } from "../Section/Section.styled";
+} from "./MobileMenu.styles";
+import { Container } from "../Section/Section.styles";
 
 
 

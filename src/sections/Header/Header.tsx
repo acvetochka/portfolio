@@ -6,8 +6,8 @@ import { useEffect, useState } from "react";
 import { MdMenu, MdClose } from "react-icons/md";
 import { useMediaQuery } from "react-responsive";
 import { MobileMenu, Navigation } from "@/components";
-import { Container } from "@/components/Section/Section.styled";
-import { Border, BorderContainer, MenuButton } from "./Header.styled";
+import { Container } from "@/components/Section/Section.styles";
+import { Border, BorderContainer, MenuButton } from "./Header.styles";
 
 export const Header = (): JSX.Element => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

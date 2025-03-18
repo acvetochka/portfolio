@@ -1,3 +1,4 @@
+
 import { ItemStyled } from "@/sections/About/About.styles";
 import styled from "styled-components";
 

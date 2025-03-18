@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Edu } from "../Edu/Edu";
 import { Certificates } from "../Certificates/Certificates";
 import { CV } from "../CV/CV";
-import { Button, ButtonContainer, LinksContainer, Wrapper } from "./AboutLinks.styled";
+import { Button, ButtonContainer, LinksContainer, Wrapper } from "./AboutLinks.styles";
 
 
 const aboutData = [

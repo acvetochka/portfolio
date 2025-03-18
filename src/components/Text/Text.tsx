@@ -3,7 +3,7 @@
 import cn from "classnames";
 
 import { TextProps } from "@/types";
-import { StyledText } from "./Text.styled";
+import { StyledText } from "./Text.styles";
 
 export const Text = ({
   size = "normal",

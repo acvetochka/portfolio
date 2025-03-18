@@ -1,7 +1,7 @@
 "use client";
 
 import { HeroDescription, HeroImage } from "@/components";
-import { Container } from "@/components/Section/Section.styled";
+import { Container } from "@/components/Section/Section.styles";
 
 export const HeroSection = (): JSX.Element => {
   return (

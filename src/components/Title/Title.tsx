@@ -1,6 +1,6 @@
 "use client";
 import { TitleProps } from "@/types";
-import { H1, H2, H3 } from "./Title.styled";
+import { H1, H2, H3 } from "./Title.styles";
 
 export const Title = ({ tag='h2' , id, children }: TitleProps): JSX.Element => {
   switch (tag) {
