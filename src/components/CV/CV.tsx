@@ -19,6 +19,11 @@ export const CV = (): JSX.Element => {
           Download (de) <FaFilePdf />
         </CustomLink>
       </CVItem>
+      <CVItem>
+        <CustomLink href="/files/CV_Alona_Kuznietsova.pdf">
+          Download (en) <FaFilePdf />
+        </CustomLink>
+      </CVItem>    
     </ListStyled>
   );
 };
