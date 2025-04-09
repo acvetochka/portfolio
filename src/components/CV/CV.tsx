@@ -20,7 +20,7 @@ export const CV = (): JSX.Element => {
         </CustomLink>
       </CVItem>
       <CVItem>
-        <CustomLink href="/files/CV_Alona_Kuznietsova.pdf">
+        <CustomLink href="/files/Alona_Kuznietsova_CV.pdf">
           Download (en) <FaFilePdf />
         </CustomLink>
       </CVItem>    
