@@ -8,14 +8,12 @@ export const FormStyled = styled.form`
   width: 100%;
   margin: 0;
 
-
   @media screen and (min-width: 768px) {
     width: 600px;
-
   }
 
   @media screen and (min-width: 1020px) {
-      align-items: flex-end;
+    align-items: flex-end;
   }
 `;
 
@@ -59,4 +57,8 @@ export const TextareaStyled = styled.textarea`
     border: 1px solid #4f0ac9;
     outline: 2px solid #0000ff;
   }
+`;
+
+export const TextStatus = styled.p`
+  color: red;
 `;
