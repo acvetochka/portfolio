@@ -15,15 +15,15 @@ export const CV = (): JSX.Element => {
         </CustomLink>
       </CVItem>
       <CVItem>
-        <CustomLink href="/files/Alona_Kuznietsova_Lebenslauf.pdf">
+        <CustomLink href="/files/Lebenslauf_Frontend_Developer_Kuznietsova.pdf">
           Download (de) <FaFilePdf />
         </CustomLink>
       </CVItem>
       <CVItem>
-        <CustomLink href="/files/Alona_Kuznietsova_CV.pdf">
+        <CustomLink href="/files/CV_Frontend_Developer.pdf">
           Download (en) <FaFilePdf />
         </CustomLink>
-      </CVItem>    
+      </CVItem>
     </ListStyled>
   );
 };
