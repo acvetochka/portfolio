@@ -1,237 +1,249 @@
 [
-    {
+  {
+    "id": 1,
+    "type": "Frontend",
+    "skills": [
+      {
         "id": 1,
-        "type": "Frontend",
-        "skills": [
-            {
-                "id": 1,
-                "name": "HTML5",
-                "icon": "/skillicons/HTML.svg"
-            },
-            {
-                "id": 2,
-                "name": "JavaScript",
-                "icon": "/skillicons/JavaScript.svg"
-            },
-            {
-                "id": 3,
-                "name": "TypeScript",
-                "icon": "/skillicons/TypeScript.svg"
-            },
-            {
-                "id": 4,
-                "name": "React",
-                "icon": "/skillicons/React.svg"
-            },
-            {
-                "id": 5,
-                "name": "Redux",
-                "icon": "/skillicons/Redux.svg"
-            },
-            {
-                "id": 6,
-                "name": "Next.js",
-                "icon": "/skillicons/NextJS.svg"
-            },
-            {
-                "id": 7,
-                "name": "REST API",
-                "icon": "/skillicons/RestApi.svg"
-            }
-        ]
-
-    },
-    {
-        "id": 4,
-        "type": "Backend",
-        "skills": [
-            {
-                "id": 1,
-                "name": "Node.js",
-                "icon": "/skillicons/NodeJS.svg"
-            },
-            {
-                "id": 2,
-                "name": "MongoDB",
-                "icon": "/skillicons/MongoDB.svg"
-            },
-            {
-                "id": 3,
-                "name": "Express.js",
-                "icon": "/skillicons/ExpressJS.svg"
-            }
-        ]
-    },
-    {
+        "name": "HTML5",
+        "icon": "/skillicons/HTML.svg"
+      },
+      {
         "id": 2,
-        "type": "Styles",
-        "skills": [    
-            {
-                "id": 1,
-                "name": "CSS3",
-                "icon": "/skillicons/CSS.svg"
-            },
-            {
-                "id": 2,
-                "name": "SASS",
-                "icon": "/skillicons/Sass.svg"     
-            },
-            {
-                "id": 3,
-                "name": "Tailwind CSS",
-                "icon": "/skillicons/TailwindCSS.svg"
-            },
-            {
-                "id": 4,
-                "name": "Emotion Styles",
-                "icon": "/skillicons/Emotion.svg"
-            },
-            {
-                "id": 5,
-                "name": "Styled Components",
-                "icon": "/skillicons/StyledComponents.svg"
-            },
-            {
-                "id": 6,
-                "name": "BEM",
-                "icon": "/skillicons/BEM.svg"
-            },
-            {
-                "id": 7,
-                "name": "Framer",
-                "icon": "/skillicons/Framer.svg"
-            }
-
-        ]
-    },
-    {
-        "id": 5,
-        "type": "Documentation",
-        "skills": [
-            {
-                "id": 1,
-                "name": "JSON",
-                "icon": "/skillicons/JSON.svg"
-            },
-            {
-                "id": 2,
-                "name": "Yaml",
-                "icon": "/skillicons/Yaml.svg"
-            },
-            {
-                "id": 3,
-                "name": "Swagger",
-                "icon": "/skillicons/Swagger.svg"
-            },
-            {
-                "id": 4,
-                "name": "Markdown",
-                "icon": "/skillicons/Markdown.svg"
-            }
-        ]
-    },
-    {
+        "name": "JavaScript",
+        "icon": "/skillicons/JavaScript.svg"
+      },
+      {
         "id": 3,
-        "type": "Utilites",
-        "skills": [          
-            {
-                "id": 1,
-                "name": "Git",
-                "icon": "/skillicons/Git.svg"
-            },
-            {
-                "id": 2,
-                "name": "Github",
-                "icon": "/skillicons/Github.svg"
-            },
-            {
-                "id": 3,
-                "name": "VS Code",
-                "icon": "/skillicons/VSCode.svg"
-            },
-            {
-                "id": 4,
-                "name": "Figma",
-                "icon": "/skillicons/Figma.svg"
-            },
-            {
-                "id": 5,
-                "name": "Postman",
-                "icon": "/skillicons/Postman.svg"
-            },
-            {
-                "id": 6,
-                "name": "Npm",
-                "icon": "/skillicons/Npm.svg"
-            },
-            {
-                "id": 7,
-                "name": "Webpack",
-                "icon": "/skillicons/Webpack.svg"
-            },
-            {
-                "id": 8,
-                "name": "Vercel",
-                "icon": "/skillicons/Vercel.svg"
-            }
-        ]
-    },
-    {
+        "name": "TypeScript",
+        "icon": "/skillicons/TypeScript.svg"
+      },
+      {
+        "id": 4,
+        "name": "React",
+        "icon": "/skillicons/React.svg"
+      },
+      {
+        "id": 5,
+        "name": "Redux",
+        "icon": "/skillicons/Redux.svg"
+      },
+      {
         "id": 6,
-        "type": "Best Practices",
-        "skills": [
-            {
-                "id": 1,
-                "name": "Adaptive design",
-                "icon": "/skillicons/Adaptive.svg"
-           },
-            {
-                "id": 2,
-                "name": "Accessibility",
-                "icon": "/skillicons/a11y.svg"
-            }
-        ]
-    },
-    {
+        "name": "Next.js",
+        "icon": "/skillicons/NextJS.svg"
+      },
+      {
         "id": 7,
-        "type": "Basic Knowledge",
-        "skills": [
-            {
-                "id": 1,
-                "name": "Python",
-                "icon": "/skillicons/Python.svg"
-            },
-            {
-                "id": 2,
-                "name": "VueJS",
-                "icon":"/skillicons/VueJS.svg"
-            },
-            {
-                "id": 3,
-                "name": "Docker",
-                "icon": "/skillicons/Docker.svg"
-            },
-            {
-                "id": 4,
-                "name": "Kubernetes",
-                "icon": "/skillicons/Kubernetes.svg"
-            },
-            {
-                "id": 5,
-                "name": "Goggle Cloud Platform",
-                "icon": "/skillicons/GCP.svg"
-            },
-            {
-                "id": 6,
-                "name": "MySQL",
-                "icon": "/skillicons/MySQL.svg"
-            },
-            {
-                "id": 7,
-                "name": "Jupyter Notebook",
-                "icon": "/skillicons/Jupyter.svg"
-            }
-        ]
-    }
+        "name": "REST API",
+        "icon": "/skillicons/RestApi.svg"
+      },
+      {
+        "id": 8,
+        "name": "Regex",
+        "icon": "/skillicons/Regex.svg"
+      },
+      {
+        "id": 9,
+        "name": "SVG",
+        "icon": "/skillicons/SVG.svg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "type": "Backend",
+    "skills": [
+      {
+        "id": 1,
+        "name": "Node.js",
+        "icon": "/skillicons/NodeJS.svg"
+      },
+      {
+        "id": 2,
+        "name": "MongoDB",
+        "icon": "/skillicons/MongoDB.svg"
+      },
+      {
+        "id": 3,
+        "name": "Express.js",
+        "icon": "/skillicons/ExpressJS.svg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "Styles",
+    "skills": [
+      {
+        "id": 1,
+        "name": "CSS3",
+        "icon": "/skillicons/CSS.svg"
+      },
+      {
+        "id": 2,
+        "name": "SASS",
+        "icon": "/skillicons/Sass.svg"
+      },
+      {
+        "id": 3,
+        "name": "Tailwind CSS",
+        "icon": "/skillicons/TailwindCSS.svg"
+      },
+      {
+        "id": 4,
+        "name": "Emotion Styles",
+        "icon": "/skillicons/Emotion.svg"
+      },
+      {
+        "id": 5,
+        "name": "Styled Components",
+        "icon": "/skillicons/StyledComponents.svg"
+      },
+      {
+        "id": 6,
+        "name": "BEM",
+        "icon": "/skillicons/BEM.svg"
+      },
+      {
+        "id": 7,
+        "name": "Framer",
+        "icon": "/skillicons/Framer.svg"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "Documentation",
+    "skills": [
+      {
+        "id": 1,
+        "name": "JSON",
+        "icon": "/skillicons/JSON.svg"
+      },
+      {
+        "id": 2,
+        "name": "Yaml",
+        "icon": "/skillicons/Yaml.svg"
+      },
+      {
+        "id": 3,
+        "name": "Swagger",
+        "icon": "/skillicons/Swagger.svg"
+      },
+      {
+        "id": 4,
+        "name": "Markdown",
+        "icon": "/skillicons/Markdown.svg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "type": "Utilites",
+    "skills": [
+      {
+        "id": 1,
+        "name": "Git",
+        "icon": "/skillicons/Git.svg"
+      },
+      {
+        "id": 2,
+        "name": "Github",
+        "icon": "/skillicons/Github.svg"
+      },
+      {
+        "id": 3,
+        "name": "VS Code",
+        "icon": "/skillicons/VSCode.svg"
+      },
+      {
+        "id": 4,
+        "name": "Figma",
+        "icon": "/skillicons/Figma.svg"
+      },
+      {
+        "id": 5,
+        "name": "Postman",
+        "icon": "/skillicons/Postman.svg"
+      },
+      {
+        "id": 6,
+        "name": "Npm",
+        "icon": "/skillicons/Npm.svg"
+      },
+      {
+        "id": 7,
+        "name": "Webpack",
+        "icon": "/skillicons/Webpack.svg"
+      },
+      {
+        "id": 8,
+        "name": "Vercel",
+        "icon": "/skillicons/Vercel.svg"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "type": "Best Practices",
+    "skills": [
+      {
+        "id": 1,
+        "name": "Adaptive design",
+        "icon": "/skillicons/Adaptive.svg"
+      },
+      {
+        "id": 2,
+        "name": "Accessibility",
+        "icon": "/skillicons/a11y.svg"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "type": "Basic Knowledge",
+    "skills": [
+      {
+        "id": 1,
+        "name": "Python",
+        "icon": "/skillicons/Python.svg"
+      },
+      {
+        "id": 2,
+        "name": "VueJS",
+        "icon": "/skillicons/VueJS.svg"
+      },
+      {
+        "id": 3,
+        "name": "Docker",
+        "icon": "/skillicons/Docker.svg"
+      },
+      {
+        "id": 4,
+        "name": "Kubernetes",
+        "icon": "/skillicons/Kubernetes.svg"
+      },
+      {
+        "id": 5,
+        "name": "Goggle Cloud Platform",
+        "icon": "/skillicons/GCP.svg"
+      },
+      {
+        "id": 6,
+        "name": "MySQL",
+        "icon": "/skillicons/MySQL.svg"
+      },
+      {
+        "id": 7,
+        "name": "Jupyter Notebook",
+        "icon": "/skillicons/Jupyter.svg"
+      },
+      {
+        "id": 8,
+        "name": "Linux",
+        "icon": "/skillicons/Linux.svg"
+      }
+    ]
+  }
 ]
-
