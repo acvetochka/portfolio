@@ -12,9 +12,8 @@
 
 :root {
   --background: #000000;
-  --foreground: #ededed; 
+  --foreground: #ededed;
 }
-
 
 html,
 body {
@@ -40,13 +39,11 @@ body::before {
   width: 100%;
   height: 100%;
   background-image: radial-gradient(circle 200px, #a313e0 0%, #4f0ac9 100%),
-                    radial-gradient(circle 150px, #4f0ac9 0%, #0000ff 100%),
-                    radial-gradient(circle 150px, #4f0ac9 0%, #0000ff 100%),
-                    radial-gradient(circle 200px, #a313e0 0%, #4f0ac9 100%);
-  background-position: top 214px right 58px,
-                       top 400px left 180px,
-                       top 1400px right 58px,
-                       top 1700px left 180px;
+    radial-gradient(circle 150px, #4f0ac9 0%, #0000ff 100%),
+    radial-gradient(circle 150px, #4f0ac9 0%, #0000ff 100%),
+    radial-gradient(circle 200px, #a313e0 0%, #4f0ac9 100%);
+  background-position: top 214px right 58px, top 400px left 180px,
+    top 1400px right 58px, top 1700px left 180px;
   background-repeat: no-repeat;
   background-size: 200px 200px, 150px 150px, 150px 150px, 200px 200px;
 
@@ -122,7 +119,14 @@ body {
 
 .gradient {
   background-color: #ffffff;
-      background-image: linear-gradient(75deg, rgba(214, 200, 255, 0.4) 0%, rgba(214, 200, 255, 0.6) 30%, rgba(214, 200, 255, 0.2) 55%, rgba(237, 198, 255, 0.6) 85%, rgba(237, 198, 255, 0.4) 100%);
+  background-image: linear-gradient(
+    75deg,
+    rgba(214, 200, 255, 0.4) 0%,
+    rgba(214, 200, 255, 0.6) 30%,
+    rgba(214, 200, 255, 0.2) 55%,
+    rgba(237, 198, 255, 0.6) 85%,
+    rgba(237, 198, 255, 0.4) 100%
+  );
   background-repeat: no-repeat, no-repeat;
   background-size: cover;
 }
@@ -156,7 +160,11 @@ header {
   overflow: hidden;
   position: fixed;
   width: 100%;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
   z-index: 998;
   /* background-color: #000000; */
 }
@@ -205,20 +213,19 @@ header {
   border-radius: 10px;
 } */
 
-
 .button {
   height: 30px;
   width: 100px;
-  
-/* display: inline-block;
+
+  /* display: inline-block;
 overflow: hidden;
 position: relative; */
-border-radius: 10px;
-border: 10px solid;
-border-image-source: linear-gradient(to right, #FF3F3A 0%, #F75E05 100%);
-border-image-slice: 1;
-overflow: hidden;
-/* background: 
+  border-radius: 10px;
+  border: 10px solid;
+  border-image-source: linear-gradient(to right, #ff3f3a 0%, #f75e05 100%);
+  border-image-slice: 1;
+  overflow: hidden;
+  /* background: 
 linear-gradient(to right, #FF3F3A 0%, #F75E05 100%) 
 left top / 100% 5px no-repeat,
 linear-gradient(to right,
@@ -260,7 +267,7 @@ left bottom / 100% 5px no-repeat; */
   justify-content: center;
   /* padding-top: 100px; */
   padding-top: 80px;
-padding-bottom: 20px;
+  padding-bottom: 20px;
 
   /* align-items: center; */
 }
@@ -279,48 +286,43 @@ padding-bottom: 20px;
 
 .skillsSection {
   position: relative;
-
 }
 
 .link {
-    position: relative;
-    border: none;
-    padding: 0;
-    cursor: pointer;
+  position: relative;
+  border: none;
+  padding: 0;
+  cursor: pointer;
 }
 
 .link:after {
-    content: '';
-    background: none repeat scroll 0 0 transparent;
-    bottom: -1px;
-    display: block;
-    height: 2px;
-    left: 50%;
-    position: absolute;
-    background:linear-gradient(88deg, #a313e0 20%, #4f0ac9 66%, #0000ff);
-    transition: width 500ms ease 0s, left 500ms ease 0s;
-    width: 0;
+  content: "";
+  background: none repeat scroll 0 0 transparent;
+  bottom: -1px;
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: linear-gradient(88deg, #a313e0 20%, #4f0ac9 66%, #0000ff);
+  transition: width 500ms ease 0s, left 500ms ease 0s;
+  width: 0;
 }
 
 .link:hover:after {
-    width: 100%;
-    left: 0;
+  width: 100%;
+  left: 0;
 }
 
 .has-button {
   width: 100%;
 
   width: 250px;
-align-items: center;
-height: 50px;
+  align-items: center;
+  height: 50px;
 }
 
-
-
 @media screen and (min-width: 768px) {
-  .has-button{
-
+  .has-button {
     width: 200px;
   }
-  
 }
