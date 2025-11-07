@@ -109,7 +109,11 @@
         "id": 7,
         "name": "Framer",
         "icon": "/skillicons/Framer.svg"
-      }
+      },
+      {
+        "id": 8,
+        "name": "Shadcn",
+        "icon": "/skillicons/Shadcn-Dark.svg"
     ]
   },
   {
