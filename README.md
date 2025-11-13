@@ -2,6 +2,8 @@
 
 Show [website](https://kuznietsova.org/)
 
+![Adaptiv](https://raw.githubusercontent.com/acvetochka/portfolio/refs/heads/main/public/projectImages/portfolio.png)
+
 ## 📁 Project Structure
 
 
