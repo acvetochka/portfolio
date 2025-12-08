@@ -39,7 +39,7 @@ export const ContactForm = () => {
     try {
       await schema.validate(formData, { abortEarly: false });
       setErrors({});
-      setLoading(false);
+      // setLoading(false);
     } catch (err) {
       if (err instanceof ValidationError) {
         const newErrors: Record<string, string> = {};

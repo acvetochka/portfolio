@@ -13,7 +13,7 @@ export const HeroDescription = (): JSX.Element => {
         <Button tag="scrollLink" link="contacts">
           Contact me
         </Button>
-        <Button tag="link" link="https://resume.kuznietsova.org">
+        <Button tag="link" link="https://acvetochka.github.io/Resume/">
           Resume
         </Button>
       </ButtonWrapper>
