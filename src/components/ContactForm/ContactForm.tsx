@@ -2,8 +2,8 @@ import { useState } from "react";
 import emailjs from "emailjs-com";
 import { ValidationError } from "yup";
 
-import { Button } from "../Button/Button";
-import { Input } from "../Input/Input";
+import { Button } from "../ui/Button/Button";
+import { Input } from "../ui/Input/Input";
 import inputData from "@/data/inputData.json";
 import { FormStyled, InputWrapper, TextareaStyled } from "./ContactForm.styles";
 import { isSpamMessage } from "@/lib/checkSpamMessage";

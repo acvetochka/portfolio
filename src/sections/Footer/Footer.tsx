@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Container } from "@/components/Section/Section.styles";
+import { Container } from "@/components/ui/Section/Section.styles";
 import { Border, BorderContainer, Copyright, Links } from "./Footer.styles";
 
 export const Footer = (): JSX.Element => {

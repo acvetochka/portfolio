@@ -4,10 +4,12 @@
     "src": "https://kuznietsova.org",
     "github": "https://github.com/acvetochka/portfolio",
     "technologies": ["Next.js", "TypeScript", " Vercel"],
-    "description": [ "Personal portfolio website. Includes personal information, skills, work experience, certificates, and projects.",
-    "Provides fast navigation and a responsive design for a seamless viewing experience on any device."],
-     "img": "/projectImages/portfolio.png",
-     "type": ["Landing"]
+    "description": [
+      "Personal portfolio website. Includes personal information, skills, work experience, certificates, and projects.",
+      "Provides fast navigation and a responsive design for a seamless viewing experience on any device."
+    ],
+    "img": "/projectImages/portfolio.png",
+    "type": ["Landing"]
   },
   {
     "title": "SmileBar",
@@ -37,7 +39,7 @@
     "title": "Carp Travel",
     "src": "https://carp-travel-xi.vercel.app",
     "github": "https://github.com/acvetochka/carp-travel",
-    "technologies": [" Next.js",  "Swiper", "Tailwind CSS", " Vercel"],
+    "technologies": [" Next.js", "Swiper", "Tailwind CSS", " Vercel"],
     "description": [
       "Website is a business card offering active recreation in the Carpathians. Features: Responsive Design, Swiper Integration. The project used Tailwind CSS, React Hook Form"
     ],
@@ -109,6 +111,6 @@
     ],
     "img": "/projectImages/phonebook.png",
     "type": ["App"],
-    "isInConstruction": "true"
+    "isInConstruction": true
   }
 ]

@@ -3,7 +3,7 @@
 import { FaFilePdf } from "react-icons/fa";
 import { TbWorldWww } from "react-icons/tb";
 
-import { CustomLink } from "../CustomLink/CustomLink";
+import { CustomLink } from "../ui/CustomLink/CustomLink";
 import { CVItem, ListStyled } from "./CV.styles";
 
 export const CV = (): JSX.Element => {

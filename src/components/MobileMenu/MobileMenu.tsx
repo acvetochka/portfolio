@@ -6,15 +6,12 @@ import {
   MenuWrapper,
   LinkStyled,
 } from "./MobileMenu.styles";
-import { Container } from "../Section/Section.styles";
-
-
+import { Container } from "../ui/Section/Section.styles";
 
 export const MobileMenu = ({
-  isOpen=false,
+  isOpen = false,
   onClose,
 }: MobileMenuProps): JSX.Element => {
-
   return (
     <StyledMobileMenu $isOpen={isOpen}>
       <Container>
@@ -23,7 +20,7 @@ export const MobileMenu = ({
             {menu.map(({ id, link, title }) => (
               <li key={id}>
                 <LinkStyled
-                href="/"
+                  href="/"
                   to={link}
                   onClick={isOpen ? () => onClose() : undefined}
                   spy={true}

@@ -1,7 +1,7 @@
 "use client";
 
 import { Skills } from "../Skills/Skills";
-import { Title } from "../Title/Title";
+import { Title } from "../ui/Title/Title";
 import skillsData from "@/data/skills.json";
 import { List, SkillsType } from "./SkillsList.styles";
 

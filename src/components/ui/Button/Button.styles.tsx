@@ -1,8 +1,8 @@
-import styled, { css } from 'styled-components';
-import { Link as ReactScrollLink } from 'react-scroll';
-import { gradientBorder } from '@/styles/variables';
+import styled, { css } from "styled-components";
+import { Link as ReactScrollLink } from "react-scroll";
+import { gradientBorder } from "@/styles/variables";
 
-const sharedButtonStyles = css`
+export const sharedButtonStyles = css`
   background: #000;
   color: white;
   padding: 10px 20px;
@@ -32,13 +32,13 @@ export const StyledButtonContainer = styled.div`
     background: transparent;
   }
 
-  @media and (max-width:480px) {
-  min-width: 25px;}
+  @media and (max-width: 480px) {
+    min-width: 25px;
+  }
 `;
 
 export const StyledButton = styled.button`
   ${sharedButtonStyles};
-
 `;
 
 export const StyledScrollLink = styled(ReactScrollLink)`

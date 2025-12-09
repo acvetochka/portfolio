@@ -5,7 +5,7 @@ import {
   ProjectDescription,
   ProjectLinks,
 } from "@/components";
-import projects from "@/data/projects.json";
+// import projects from "@/data/projects.json";
 import {
   ImageWrapper,
   ProjectContainer,
@@ -14,8 +14,16 @@ import {
   Type,
   TypeList,
 } from "./ProjectsList.styles";
+import { ProjectProps } from "@/types";
+// import { useState } from "react";
 
-export const ProjectsList = (): JSX.Element => {
+export const ProjectsList = ({
+  projects,
+}: {
+  projects: ProjectProps[];
+}): JSX.Element => {
+  // const [projectList, setProjectList] = useState(projects);
+
   return (
     <ProjectsListStyled>
       {projects.map(
@@ -47,7 +55,7 @@ export const ProjectsList = (): JSX.Element => {
                 description={description}
                 technologies={technologies}
               />
-              <ProjectLinks src={src} github={github} name={title}/>
+              <ProjectLinks src={src} github={github} name={title} />
             </ProjectContainer>
           </ProjectItem>
         )

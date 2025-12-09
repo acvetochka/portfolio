@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import { MdMenu, MdClose } from "react-icons/md";
 import { useMediaQuery } from "react-responsive";
 import { MobileMenu, Navigation } from "@/components";
-import { Container } from "@/components/Section/Section.styles";
+import { Container } from "@/components/ui/Section/Section.styles";
 import { Border, BorderContainer, MenuButton } from "./Header.styles";
 
 export const Header = (): JSX.Element => {
@@ -46,7 +46,15 @@ export const Header = (): JSX.Element => {
               </Link>
               {isClient && isMobile ? (
                 <>
-                  <MenuButton type="button" onClick={toggleMobileMenu} aria-label={isMobileMenuOpen ? "close-menu-button": "open-menu-button"}>
+                  <MenuButton
+                    type="button"
+                    onClick={toggleMobileMenu}
+                    aria-label={
+                      isMobileMenuOpen
+                        ? "close-menu-button"
+                        : "open-menu-button"
+                    }
+                  >
                     {isMobileMenuOpen ? (
                       <MdClose size={24} />
                     ) : (
