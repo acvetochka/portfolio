@@ -14,7 +14,7 @@ export const verifyEmailWithMailboxLayer = async (email: string) => {
     const data = await response.json();
     console.log(data);
 
-    return data?.smtp_check === true && data?.format_valid === true;
+    return data?.format_valid === true && data?.mx_found === true;
   } catch {
     return false;
   }
