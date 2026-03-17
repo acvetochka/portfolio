@@ -9,16 +9,6 @@
         "icon": "/skillicons/HTML.svg"
       },
       {
-        "id": 2,
-        "name": "JavaScript",
-        "icon": "/skillicons/JavaScript.svg"
-      },
-      {
-        "id": 3,
-        "name": "TypeScript",
-        "icon": "/skillicons/TypeScript.svg"
-      },
-      {
         "id": 4,
         "name": "React",
         "icon": "/skillicons/React.svg"
@@ -47,11 +37,16 @@
         "id": 9,
         "name": "SVG",
         "icon": "/skillicons/SVG.svg"
+      },
+      {
+        "id": 2,
+        "name": "VueJS",
+        "icon": "/skillicons/VueJS.svg"
       }
     ]
   },
   {
-    "id": 4,
+    "id": 2,
     "type": "Backend",
     "skills": [
       {
@@ -68,11 +63,16 @@
         "id": 3,
         "name": "Express.js",
         "icon": "/skillicons/ExpressJS.svg"
+      },
+      {
+        "id": 4,
+        "name": "MySQL",
+        "icon": "/skillicons/MySQL.svg"
       }
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "type": "Styles",
     "skills": [
       {
@@ -107,7 +107,7 @@
       },
       {
         "id": 7,
-        "name": "Framer",
+        "name": "Framer Motion",
         "icon": "/skillicons/Framer.svg"
       },
       {
@@ -118,33 +118,28 @@
     ]
   },
   {
-    "id": 5,
-    "type": "Documentation",
+    "id": 4,
+    "type": "Programmimg Languages",
     "skills": [
       {
-        "id": 1,
-        "name": "JSON",
-        "icon": "/skillicons/JSON.svg"
-      },
-      {
         "id": 2,
-        "name": "Yaml",
-        "icon": "/skillicons/Yaml.svg"
+        "name": "JavaScript",
+        "icon": "/skillicons/JavaScript.svg"
       },
       {
         "id": 3,
-        "name": "Swagger",
-        "icon": "/skillicons/Swagger.svg"
+        "name": "TypeScript",
+        "icon": "/skillicons/TypeScript.svg"
       },
       {
-        "id": 4,
-        "name": "Markdown",
-        "icon": "/skillicons/Markdown.svg"
+        "id": 1,
+        "name": "Python",
+        "icon": "/skillicons/Python.svg"
       }
     ]
   },
   {
-    "id": 3,
+    "id": 5,
     "type": "Utilites",
     "skills": [
       {
@@ -186,11 +181,68 @@
         "id": 8,
         "name": "Vercel",
         "icon": "/skillicons/Vercel.svg"
+      },
+      {
+        "id": 9,
+        "name": "Jupyter Notebook",
+        "icon": "/skillicons/Jupyter.svg"
       }
     ]
   },
   {
     "id": 6,
+    "type": "Documentation",
+    "skills": [
+      {
+        "id": 1,
+        "name": "JSON",
+        "icon": "/skillicons/JSON.svg"
+      },
+      {
+        "id": 2,
+        "name": "Yaml",
+        "icon": "/skillicons/Yaml.svg"
+      },
+      {
+        "id": 3,
+        "name": "Swagger",
+        "icon": "/skillicons/Swagger.svg"
+      },
+      {
+        "id": 4,
+        "name": "Markdown",
+        "icon": "/skillicons/Markdown.svg"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "type": "DevOps / Cloud",
+    "skills": [
+      {
+        "id": 3,
+        "name": "Docker",
+        "icon": "/skillicons/Docker.svg"
+      },
+      {
+        "id": 4,
+        "name": "Kubernetes (basic)",
+        "icon": "/skillicons/Kubernetes.svg"
+      },
+      {
+        "id": 5,
+        "name": "Goggle Cloud Platform",
+        "icon": "/skillicons/GCP.svg"
+      },
+      {
+        "id": 8,
+        "name": "Linux",
+        "icon": "/skillicons/Linux.svg"
+      }
+    ]
+  },
+  {
+    "id": 8,
     "type": "Best Practices",
     "skills": [
       {
@@ -202,52 +254,6 @@
         "id": 2,
         "name": "Accessibility",
         "icon": "/skillicons/a11y.svg"
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "type": "Basic Knowledge",
-    "skills": [
-      {
-        "id": 1,
-        "name": "Python",
-        "icon": "/skillicons/Python.svg"
-      },
-      {
-        "id": 2,
-        "name": "VueJS",
-        "icon": "/skillicons/VueJS.svg"
-      },
-      {
-        "id": 3,
-        "name": "Docker",
-        "icon": "/skillicons/Docker.svg"
-      },
-      {
-        "id": 4,
-        "name": "Kubernetes",
-        "icon": "/skillicons/Kubernetes.svg"
-      },
-      {
-        "id": 5,
-        "name": "Goggle Cloud Platform",
-        "icon": "/skillicons/GCP.svg"
-      },
-      {
-        "id": 6,
-        "name": "MySQL",
-        "icon": "/skillicons/MySQL.svg"
-      },
-      {
-        "id": 7,
-        "name": "Jupyter Notebook",
-        "icon": "/skillicons/Jupyter.svg"
-      },
-      {
-        "id": 8,
-        "name": "Linux",
-        "icon": "/skillicons/Linux.svg"
       }
     ]
   }

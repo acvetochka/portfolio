@@ -10,8 +10,8 @@ export const CV = (): JSX.Element => {
   return (
     <ListStyled>
       <CVItem>
-        {/* <CustomLink href="https://resume.kuznietsova.org"> */}
-        <CustomLink href="https://acvetochka.github.io/Resume/">
+        <CustomLink href="https://resume.kuznietsova.org">
+          {/* <CustomLink href="https://acvetochka.github.io/Resume/"> */}
           Show <TbWorldWww />
         </CustomLink>
       </CVItem>
