@@ -7,17 +7,18 @@ import Script from "next/script";
 
 const agbalumo = localFont({
   src: "./fonts/Agbalumo-Regular.ttf",
-  variable: "--font-agbalumo"
-})
+  variable: "--font-agbalumo",
+});
 
 const aldrich = localFont({
   src: "./fonts/Aldrich-Regular.ttf",
-  variable: "--font-aldrich"
-})
+  variable: "--font-aldrich",
+});
 
 export const metadata: Metadata = {
-  title: "Portfolio | Alona Kuznietsova",
-  description: "This is my personal portfolio",
+  title: "Portfolio | Alona Kuznietsova | Frontend Developer",
+  description:
+    "Portfolio of Alona Kuznietsova, a Frontend Developer specializing in React, Next.js and TypeScript. Experienced in bilding modern, performant user interfaces, reusable UI components and responsive web applications",
 };
 
 export default function RootLayout({
@@ -29,18 +30,19 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <Script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-1YH3M8SMR0"
-      ></Script>
-      <Script id="google-analytics">
-        {`window.dataLayer = window.dataLayer || [];
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-1YH3M8SMR0"
+        ></Script>
+        <Script id="google-analytics">
+          {`window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
           gtag('config', 'G-1YH3M8SMR0');`}
-      </Script></head>
+        </Script>
+      </head>
       <body className={`${agbalumo.variable} ${aldrich.variable}`}>
-        <Header/>
+        <Header />
         <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
         {/* <Footer/> */}
       </body>
