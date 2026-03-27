@@ -68,6 +68,16 @@
         "id": 4,
         "name": "MySQL",
         "icon": "/skillicons/MySQL.svg"
+      },
+      {
+        "id": 5,
+        "name": "PostgreSQL",
+        "icon": "/skillicons/PostgreSQL.svg"
+      },
+      {
+        "id": 6,
+        "name": "Prisma",
+        "icon": "/skillicons/Prisma.svg"
       }
     ]
   },
@@ -212,6 +222,11 @@
         "id": 4,
         "name": "Markdown",
         "icon": "/skillicons/Markdown.svg"
+      },
+      {
+        "id": 5,
+        "name": "VitePress",
+        "icon": "/skillicons/Vitepress.svg"
       }
     ]
   },
@@ -235,9 +250,19 @@
         "icon": "/skillicons/GCP.svg"
       },
       {
-        "id": 8,
+        "id": 6,
+        "name": "Github Actions",
+        "icon": "/skillicons/GithubActions.svg"
+      },
+      {
+        "id": 7,
         "name": "Linux",
         "icon": "/skillicons/Linux.svg"
+      },
+      {
+        "id": 8,
+        "name": "Bash",
+        "icon": "/skillicons/Bash.svg"
       }
     ]
   },
