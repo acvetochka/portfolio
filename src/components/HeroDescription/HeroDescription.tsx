@@ -7,7 +7,7 @@ export const HeroDescription = (): JSX.Element => {
       <TextShadow size="54px" text="Alona Kuznietsova" id="title">
         <Title tag="h1">Alona Kuznietsova</Title>
       </TextShadow>
-      <Text size="extra-large">Frontend Developer</Text>
+      <Text size="extra-large">Software Engineer</Text>
       <Quote />
       <ButtonWrapper>
         <Button tag="scrollLink" link="contacts">
