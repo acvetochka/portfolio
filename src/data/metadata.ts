@@ -1,7 +1,7 @@
 const data = {
-  title: "Portfolio | Alona Kuznietsova | Frontend Developer",
+  title: "Portfolio | Alona Kuznietsova | Software Engineer",
   description:
-    "Portfolio of Alona Kuznietsova, a Frontend Developer specializing in React, Next.js and TypeScript. Experienced in bilding modern, performant user interfaces, reusable UI components and responsive web applications",
+    "Portfolio of Alona Kuznietsova, a Software Engineer with a focus on modern web development and growing expertise in Linux and DevOps. Experienced in building full-stack applications with React, Next.js, and Node.js, as well as working with Linux environments, Docker, and automation tools.",
   // keywords: "DoGood, social impact, volunteering",
   locale: "en_US",
   // images: [
