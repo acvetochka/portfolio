@@ -1,7 +1,7 @@
 export interface ProjectDescriptionProps {
   role?: string;
   description: string[];
-  technologies: string[];
+  // technologies: string[];
 }
 
 export interface ProjectLinksProps {

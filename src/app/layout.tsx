@@ -4,6 +4,7 @@ import "../styles/globals.css";
 import { Header } from "@/sections/Header/Header";
 import StyledComponentsRegistry from "@/lib/registry";
 import Script from "next/script";
+import { meta } from "@/data/metadata";
 
 const agbalumo = localFont({
   src: "./fonts/Agbalumo-Regular.ttf",
@@ -15,11 +16,7 @@ const aldrich = localFont({
   variable: "--font-aldrich",
 });
 
-export const metadata: Metadata = {
-  title: "Portfolio | Alona Kuznietsova | Frontend Developer",
-  description:
-    "Portfolio of Alona Kuznietsova, a Frontend Developer specializing in React, Next.js and TypeScript. Experienced in bilding modern, performant user interfaces, reusable UI components and responsive web applications",
-};
+export const metadata: Metadata = meta;
 
 export default function RootLayout({
   children,

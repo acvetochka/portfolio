@@ -1,15 +1,15 @@
-import { Text, Tag } from "@/components";
+import { Text } from "@/components";
 import {
   DescriptionWrapper,
-  TechnologiesList,
+  // TechnologiesList,
 } from "./ProjectDescription.styles";
 import { ProjectDescriptionProps } from "@/types";
 
 export const ProjectDescription = ({
   role,
   description,
-  technologies,
-}: ProjectDescriptionProps): JSX.Element => {
+}: // technologies,
+ProjectDescriptionProps): JSX.Element => {
   return (
     <DescriptionWrapper className="desc">
       {role && <Text size="small">Role: {role}</Text>}
@@ -18,13 +18,13 @@ export const ProjectDescription = ({
           {text}
         </Text>
       ))}
-      <TechnologiesList>
+      {/* <TechnologiesList>
         {technologies.map((technologie, id) => (
           <li key={id}>
             <Tag>{technologie}</Tag>
           </li>
         ))}
-      </TechnologiesList>
+      </TechnologiesList> */}
     </DescriptionWrapper>
   );
 };

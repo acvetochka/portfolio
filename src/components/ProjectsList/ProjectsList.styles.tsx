@@ -11,6 +11,7 @@ export const ProjectsListStyled = styled.ul`
 
 export const ProjectItem = styled.li`
   width: 100%;
+  height: 400px;
 
   display: inline-flex;
   position: relative;
@@ -56,7 +57,7 @@ export const ProjectContainer = styled.div`
   display: flex;
   flex-direction: column;
   // justify-content: ;
-  // justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   text-decoration: none;
 `;

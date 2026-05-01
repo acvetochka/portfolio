@@ -4,6 +4,7 @@ import {
   Construction,
   ProjectDescription,
   ProjectLinks,
+  Tag,
 } from "@/components";
 // import projects from "@/data/projects.json";
 import {
@@ -15,6 +16,7 @@ import {
   TypeList,
 } from "./ProjectsList.styles";
 import { ProjectProps } from "@/types";
+import { TechnologiesList } from "../ProjectDescription/ProjectDescription.styles";
 // import { useState } from "react";
 
 export const ProjectsList = ({
@@ -53,8 +55,15 @@ export const ProjectsList = ({
               <ProjectDescription
                 role={role}
                 description={description}
-                technologies={technologies}
+                // technologies={technologies}
               />
+              <TechnologiesList>
+                {technologies.map((technologie, id) => (
+                  <li key={id}>
+                    <Tag>{technologie}</Tag>
+                  </li>
+                ))}
+              </TechnologiesList>
               <ProjectLinks src={src} github={github} name={title} />
             </ProjectContainer>
           </ProjectItem>

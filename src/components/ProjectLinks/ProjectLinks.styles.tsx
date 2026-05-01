@@ -5,7 +5,7 @@ export const LinksWrapper = styled.ul`
   gap: 10px;
   list-style: none;
   // margin-top: 10px;
-  margin: auto;
+  // margin: auto;
 
   & li {
     width: 25px;
