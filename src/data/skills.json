@@ -9,37 +9,37 @@
         "icon": "/skillicons/HTML.svg"
       },
       {
-        "id": 4,
+        "id": 2,
         "name": "React",
         "icon": "/skillicons/React.svg"
       },
       {
-        "id": 5,
+        "id": 3,
         "name": "Redux",
         "icon": "/skillicons/Redux.svg"
       },
       {
-        "id": 6,
+        "id": 4,
         "name": "Next.js",
         "icon": "/skillicons/NextJS.svg"
       },
       {
-        "id": 7,
+        "id": 5,
         "name": "REST API",
         "icon": "/skillicons/RestApi.svg"
       },
       {
-        "id": 8,
+        "id": 6,
         "name": "Regex",
         "icon": "/skillicons/Regex.svg"
       },
       {
-        "id": 9,
+        "id": 7,
         "name": "SVG",
         "icon": "/skillicons/SVG.svg"
       },
       {
-        "id": 2,
+        "id": 8,
         "name": "VueJS",
         "icon": "/skillicons/VueJS.svg"
       }
@@ -132,17 +132,17 @@
     "type": "Programmimg Languages",
     "skills": [
       {
-        "id": 2,
+        "id": 1,
         "name": "JavaScript",
         "icon": "/skillicons/JavaScript.svg"
       },
       {
-        "id": 3,
+        "id": 2,
         "name": "TypeScript",
         "icon": "/skillicons/TypeScript.svg"
       },
       {
-        "id": 1,
+        "id": 3,
         "name": "Python",
         "icon": "/skillicons/Python.svg"
       }
@@ -235,34 +235,44 @@
     "type": "DevOps / Cloud",
     "skills": [
       {
-        "id": 3,
+        "id": 1,
         "name": "Docker",
         "icon": "/skillicons/Docker.svg"
       },
       {
-        "id": 4,
+        "id": 2,
         "name": "Kubernetes (basic)",
         "icon": "/skillicons/Kubernetes.svg"
       },
       {
-        "id": 5,
+        "id": 3,
         "name": "Goggle Cloud Platform",
         "icon": "/skillicons/GCP.svg"
       },
       {
-        "id": 6,
+        "id": 4,
         "name": "Github Actions",
         "icon": "/skillicons/GithubActions.svg"
       },
       {
-        "id": 7,
+        "id": 5,
         "name": "Linux",
         "icon": "/skillicons/Linux.svg"
       },
       {
-        "id": 8,
+        "id": 6,
+        "name": "RedHat",
+        "icon": "/skillicons/redhat.svg"
+      },
+      {
+        "id": 7,
         "name": "Bash",
         "icon": "/skillicons/Bash.svg"
+      },
+      {
+        "id": 8,
+        "name": "Apache",
+        "icon": "/skillicons/apache.svg"
       }
     ]
   },
