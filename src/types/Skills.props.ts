@@ -1,9 +1,9 @@
 interface Skill {
-    id: number;
-    name: string;
-    icon: string;
-  }
-  
+  // id: number;
+  name: string;
+  icon: string;
+}
+
 export interface SkillsProps {
-    skills: Skill[];
+  skills: Skill[];
 }
