@@ -5,6 +5,7 @@ import { Header } from "@/sections/Header/Header";
 import StyledComponentsRegistry from "@/lib/registry";
 import Script from "next/script";
 import { meta } from "@/data/metadata";
+import { Footer } from "@/sections";
 
 const agbalumo = localFont({
   src: "./fonts/Agbalumo-Regular.ttf",
@@ -41,7 +42,7 @@ export default function RootLayout({
       <body className={`${agbalumo.variable} ${aldrich.variable}`}>
         <Header />
         <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
-        {/* <Footer/> */}
+        <Footer />
       </body>
     </html>
   );

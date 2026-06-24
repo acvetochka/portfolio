@@ -1,4 +1,10 @@
-import { About, Contacts, Footer, HeroSection, Projects, SkillsSection } from "@/sections";
+import {
+  About,
+  Contacts,
+  HeroSection,
+  Projects,
+  SkillsSection,
+} from "@/sections";
 
 export default function Home() {
   return (
@@ -10,7 +16,7 @@ export default function Home() {
         <Projects />
         <Contacts />
       </main>
-        <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

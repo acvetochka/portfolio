@@ -1,20 +1,20 @@
-import { Link} from 'react-scroll';
+"use client";
 
-import { ScrollLinkProps } from '@/types';
+import { Link } from "react-scroll";
 
-export const ScrollLink = ({
-  children, to
-}: ScrollLinkProps): JSX.Element => {
+import { ScrollLinkProps } from "@/types";
+
+export const ScrollLink = ({ children, to }: ScrollLinkProps): JSX.Element => {
   return (
     <Link
-    to={to}
-    spy={true}
-    smooth={true}
-    duration={500}
-    href="/"
-    className="link">
+      to={to}
+      spy={true}
+      smooth={true}
+      duration={500}
+      href="/"
+      className="link"
+    >
       {children}
     </Link>
   );
 };
-

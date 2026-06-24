@@ -1,3 +1,5 @@
+"use client";
+
 import menu from "@/data/navigation.json";
 import { MobileMenuProps } from "@/types";
 import {

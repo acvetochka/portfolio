@@ -1,3 +1,5 @@
+"use client";
+
 import { Button, Text, Title, TextShadow, Quote } from "@/components";
 import { ButtonWrapper, DescriptionWrapper } from "./HeroDescription.styles";
 

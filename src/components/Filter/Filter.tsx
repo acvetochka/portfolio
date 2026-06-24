@@ -1,3 +1,5 @@
+"use client";
+
 import { ProjectProps, ProjectType } from "@/types";
 import { FilterList, StyledButton } from "./Filter.styles";
 import { useState } from "react";

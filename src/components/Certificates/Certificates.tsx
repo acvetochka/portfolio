@@ -1,3 +1,5 @@
+"use client";
+
 import { AiOutlineExport } from "react-icons/ai";
 
 import { CustomLink, Title } from "@/components";
@@ -14,7 +16,7 @@ export const Certificates = (): JSX.Element => {
             {certList.map(({ degree, href }, id) => (
               <CertItem key={id}>
                 <CustomLink key={id} href={href}>
-                  {degree} <AiOutlineExport/>
+                  {degree} <AiOutlineExport />
                 </CustomLink>
               </CertItem>
             ))}
